@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:4a079ea5-98f4-4430-8723-44b19bf8a8fe -->
+<metadata name="shared" path="/shared" type="CONTAINER" subtype="FOLDER" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+    <privilege user="anonymous" domain="composite" privileges="READ"/>
+    <privilege user="system" domain="composite" privileges="READ WRITE"/>
+    <privilege user="admin" domain="composite" privileges="READ WRITE"/>
+    <privilege group="all" domain="composite" privileges="READ WRITE"/>
+    <privilege group="all" domain="dynamic" privileges="READ"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1614596802579</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1974</attribute>
+  <attribute name="creatorUserName" type="STRING">system</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1614596802579</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1974</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">system</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1614596802579</attribute>
+</metadata>
