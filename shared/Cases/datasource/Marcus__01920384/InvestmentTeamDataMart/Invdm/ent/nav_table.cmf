@@ -1,0 +1,1320 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="nav" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/nav" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="effectiveDate" nullable="false">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="entityId" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sourceId" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fundClass" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="navPerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="navPerShareChange" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="priorNavPerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="offerPrice" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="offerPriceChange" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="netAssetsBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="netAssetsLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="totalAssetsBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="totalAssetsLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketValueBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketValueLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="dividendShares" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="dividendRate" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="dividendRateChange" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="dividendAccrued" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sharesOutstanding" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="unrealizedGainLoss" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="realizedGainLoss" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="subscriptions" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="redemptions" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reinvestPrice" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="alternateReinvestPrice" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketPrice" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="income" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="incomePerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="incomeExDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="incomeReinvestDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="expense" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="expensePerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="expenseReinvestDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="splitRatio" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sevenDayYield" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sevenDayEffectiveYield" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="offerPriceYield" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="navYield" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="yieldDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="compositeFund" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertDate" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertSource" nullable="false">
+      <datatype name="varchar" extendedName="varchar(25)" subType="DATASOURCE_TYPE" type="STRING" maxLength="25"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="updateDate" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="updateSource" nullable="false">
+      <datatype name="varchar" extendedName="varchar(25)" subType="DATASOURCE_TYPE" type="STRING" maxLength="25"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="netAssetStatus" nullable="true">
+      <datatype name="varchar" extendedName="varchar(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reinvestDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="navPerShareLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="capGainPerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="unsubsidizedYield" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="incomePayDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="stCapGainPerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ltCapGainPerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="qualifiedDivPerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="stQualifiedDivPerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="qualifiedForeignTaxCreditPerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="returnOnCapPerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="taxExemptDivPerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="foreignTaxCreditPerShare" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="qualifiedDividendIncomeRatio" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="taxExemptRatio" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="unrecapturedSection1250Gain" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="yieldAdjustment" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="totalFundAssets" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="midAskBid" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prelimReinvestPrice" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="premiumDiscount" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="finalReinvestPrice" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="navPerShareBaseExtended" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="navPerShareUsdExtended" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="oneDayYield" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="thirtyDayYield" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="pkNav" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="effectiveDate" sortOrder="ASCENDING"/>
+      <indexColumn name="entityId" sortOrder="ASCENDING"/>
+      <indexColumn name="sourceId" sortOrder="ASCENDING"/>
+    </index>
+    <index name="IX_navPartitionCols" type="CLUSTERED" unique="false">
+      <indexColumn name="effectiveDate" sortOrder="ASCENDING"/>
+    </index>
+    <index name="idxNavSourceId" type="OTHER" unique="false">
+      <indexColumn name="sourceId" sortOrder="ASCENDING"/>
+    </index>
+    <index name="idx_fkNavEntityId" type="OTHER" unique="false">
+      <indexColumn name="entityId" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys>
+    <foreignKey name="fkNavSourceId" primaryKeyName="pkSourceId" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/sourceCode">
+      <foreignKeyColumn primaryColumnName="sourceId" foreignColumnName="sourceId"/>
+    </foreignKey>
+    <foreignKey name="fkNavEntityId" primaryKeyName="PK_entityId" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/entity">
+      <foreignKeyColumn primaryColumnName="entityId" foreignColumnName="entityId"/>
+    </foreignKey>
+  </foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/entity" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="paceEntityId">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="paceEntityType">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="entityCode">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="name">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="baseCurrency">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="inceptionDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="inceptionValue">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="openDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="terminationDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="terminationValue">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="manager">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="summitParentEntityId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="stateCode">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="taxCountry">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="portfolioType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="type">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="subType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="productCompany">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="productVehicle">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="assetClass">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="style">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="investmentCompany">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="investmentGroup">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="investmentType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="separateAccountType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="clientServiceGroup">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="investmentSector">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="investmentSegment">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="portfolioDuration">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="management">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="marketExposure">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="economicRegion">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="subGroup">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="marketingGroup">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="legalName">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="longName">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="reportingName">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="familyName">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="erisa">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="fiscalEndDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="marketingOpenDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="contractDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="subAdvised">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="taxStatus">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="voteProxy">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfnFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="costMethod">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="lotSelectionMethod">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="discretionary">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="reportedStatus">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="contractualSettlementType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="gainLossOnPaydowns">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="originator">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="status">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="reportingBasis">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="universalId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="custodian">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="bankAccountNumber">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="taxId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="ibor">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="backofficeProvider">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="evFundId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="fundTicker">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="fundCusip">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="clientType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="classId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="seriesId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="altPerfInceptionDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="afterTaxPerfInceptionDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="noPerformanceBeforeDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="grossExpenseRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="netExpenseRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="minimumInvestment">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="accrualType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="accrualFrequency">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpDistributionType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpTaxableIncomeFlag">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpSplitRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="mfpSpreadMethod">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpSpreadCalendar">
+        <datatype type="DECIMAL" maxDigits="38" maxFractionalDigits="0"/>
+      </element>
+      <element name="mfpOpenClosedFlag">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpSynParentId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpSynInceptionDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="mfpConvParentId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpConvFrequency">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpConvPeriod">
+        <datatype type="DECIMAL" maxDigits="38" maxFractionalDigits="0"/>
+      </element>
+      <element name="mfpFixedConvDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="mfpExpRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="mfpAnnExpWaiver">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="mfpGrAccrual">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfp12b1Fee">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="primaryReturnType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="fundAccountId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="marketingFundType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="preferredDailyHoldingsSource">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="preferredMonthendHoldingsSource">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="registeredFlag">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="billingCycle">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="fullyFundedDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="terminationDateBilling">
+        <datatype type="DATE"/>
+      </element>
+      <element name="sharesHeldTracking">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="fidelityBond">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="crdFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="collineFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="institutionalReturnsFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="ladderManagerFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="riskGroupFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="QIB">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="tabsReportingType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="shadowAccount">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="origAccountNumber">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sponsor">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sponsorType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sponsorSubType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="subadvisor">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="platform">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="qcReset">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="foxFundType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="aplDuration">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="aplCust7">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="aplFundType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="aplObject">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="aplOldAcctNumber">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="aplSource">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="aplVehicle">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="targetState">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="targetStatePct">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="smaManager">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="rrCode">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="sppId">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="workFlowId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="reregSponsor">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregRRCode">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregPlatform">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregDTCBIG">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregFundType">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregTermDate">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregPortDuration">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregSubadvisor">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregFrom_orig">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="reregTo_orig">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="reregDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="superStrategy">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="geoMandate">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="contractType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sapId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="confidentialityInd">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="billingInvoiceInd">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="insertDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="insertSource" nullable="false">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="updateDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="updateSource" nullable="false">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="strategy">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="reregShortName">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregInceptionDate">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregContractType">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregStrategy">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregGeoMandate">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregTaxStatus">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregInceptionValue">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="feeCalcCurrency">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="billingDayExtract">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="summitEntityId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="billingCashFlowInd">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="billingMarketValueRule">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="reregSameday">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="secondaryBankAcctNumber">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="smaGroup">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="leiNumber">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="finraIndicator">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="planNumber">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="planSponsorName">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="planSponsorTaxId">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="aumInclude">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="holdsPositions">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="taxManaged">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="financeFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="administrator">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="schwabCompositeCode">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="calvertScreenInvGroup">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="amortizationMethod">
+        <datatype type="STRING" maxLength="5"/>
+      </element>
+      <element name="monthYearDurationFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="entityId" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="parentEntityId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="reregFrom">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="reregTo">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="minimumMaturity">
+        <datatype type="INTEGER" minValue="0" maxValue="255"/>
+      </element>
+      <element name="maximumMaturity">
+        <datatype type="INTEGER" minValue="0" maxValue="255"/>
+      </element>
+      <element name="maturityType">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="minimumRating">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="matTurnoverOptionTransferred">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="matTurnoverOptionPurchased">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="preferredDailyNavSource">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="preferredMonthendNavSource">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="preferredPerformanceSource">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="distributionFreq">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="marketingDistributionFreq">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="deferredSalesCharge">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="reportingInceptionDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="frontEndLoad">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear1">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear2">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear3">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear4">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear5">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear6">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear7">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear8">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear9">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear10">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="entityType">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="fundedFlag">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="dailyMVFlag">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="conversionFlag">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="ubsAccountFlag">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="oldAccountNumber">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="oldShortName">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="shareClass">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="gipsFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="billingCurrency">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="transferAgentFundId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="territory">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="fundType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="inceptionNavPerShare">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/sourceCode" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="sourceId" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="sourceCode" nullable="false">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="sourceName" nullable="false">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="insertDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="insertSource" nullable="false">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="updateDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="updateSource" nullable="false">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:18:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:19:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:20:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:21:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:22:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:23:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:24:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:25:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:26:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:27:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:28:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:29:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:30:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:31:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:32:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:33:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:34:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:35:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:36:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:37:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:38:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:39:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:40:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:41:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:42:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:43:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:44:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:45:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:46:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:47:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:48:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:49:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:50:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:51:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:52:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:53:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:54:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:55:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:56:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:57:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:58:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:59:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:60:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:61:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:62:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:63:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:64:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:65:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:66:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:67:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:68:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:69:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:70:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:71:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1600884228440</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1611209069088</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">fwright</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1600884228440</attribute>
+</metadata>

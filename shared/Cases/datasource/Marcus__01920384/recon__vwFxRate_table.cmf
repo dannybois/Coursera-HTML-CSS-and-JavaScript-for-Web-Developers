@@ -1,0 +1,228 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="recon_vwFxRate" path="/shared/Cases/datasource/Marcus_01920384/recon_vwFxRate" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="reconStatus" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconSource" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="viewName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconId" nullable="true">
+      <datatype type="STRING" maxLength="127"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconDifferences" nullable="true">
+      <datatype type="STRING" maxLength="140"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="effectivedate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fromCurrency" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="toCurrency" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sourceId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sourceCode" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="spotRate" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fwd7DRate" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fwd1M" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fwd2M" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fwd3M" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fwd6M" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fwd9M" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fwd1Y" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fwd2Y" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fwd5Y" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwFxRate" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="reconStatus">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconSource">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="viewName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconId">
+        <datatype type="STRING" maxLength="127"/>
+      </element>
+      <element name="reconDifferences">
+        <datatype type="STRING" maxLength="140"/>
+      </element>
+      <element name="effectivedate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="fromCurrency">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="toCurrency">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="sourceId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="sourceCode">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="spotRate">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fwd7DRate">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fwd1M">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fwd2M">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fwd3M">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fwd6M">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fwd9M">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fwd1Y">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fwd2Y">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fwd5Y">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    recon_vwFxRate.reconStatus,
+    recon_vwFxRate.reconSource,
+    recon_vwFxRate.viewName,
+    recon_vwFxRate.reconId,
+    recon_vwFxRate.reconDifferences,
+    recon_vwFxRate.effectivedate,
+    recon_vwFxRate.fromCurrency,
+    recon_vwFxRate.toCurrency,
+    recon_vwFxRate.sourceId,
+    recon_vwFxRate.sourceCode,
+    recon_vwFxRate.spotRate,
+    recon_vwFxRate.fwd7DRate,
+    recon_vwFxRate.fwd1M,
+    recon_vwFxRate.fwd2M,
+    recon_vwFxRate.fwd3M,
+    recon_vwFxRate.fwd6M,
+    recon_vwFxRate.fwd9M,
+    recon_vwFxRate.fwd1Y,
+    recon_vwFxRate.fwd2Y,
+    recon_vwFxRate.fwd5Y
+from /shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwFxRate</attribute>
+  <attribute name="creationDate" type="LONG">1610486773079</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610491350050</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610486773079</attribute>
+</metadata>

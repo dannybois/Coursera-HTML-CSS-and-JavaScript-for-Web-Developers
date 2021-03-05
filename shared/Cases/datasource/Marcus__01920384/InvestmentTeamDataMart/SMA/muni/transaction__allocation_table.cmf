@@ -1,0 +1,600 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="transaction_allocation" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/SMA/muni/transaction_allocation" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="allocation_id" nullable="false">
+      <datatype name="bigint identity" extendedName="bigint identity" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="allocation_source" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="source_allocation_id" nullable="false">
+      <datatype name="varchar" extendedName="varchar(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="transaction_id" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="portfolio_id" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="source_portfolio_id" nullable="false">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="source_account_type" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="amount" nullable="true">
+      <datatype name="decimal" extendedName="decimal(15,4)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="4"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="allocation_status" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="update_user" nullable="false">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="update_time" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="update_source" nullable="false">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="trade_rationale" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insert_time" nullable="true">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="accrued_income_local" nullable="true">
+      <datatype name="decimal" extendedName="decimal(12,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="12" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="net_amount_local" nullable="true">
+      <datatype name="decimal" extendedName="decimal(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ticket_amount_local" nullable="true">
+      <datatype name="decimal" extendedName="decimal(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="block_rationale" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ticket_no" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="pkMuniTransactionAllocation" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="allocation_id" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys>
+    <foreignKey name="fk_muni.transaction.allocation_muni.transaction" primaryKeyName="pkMuniTransaction" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/SMA/muni/transaction">
+      <foreignKeyColumn primaryColumnName="transaction_id" foreignColumnName="transaction_id"/>
+    </foreignKey>
+    <foreignKey name="fk_muni.transaction.allocation_sma.portfolio" primaryKeyName="pkSmaPortfolio" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/SMA/sma/portfolio">
+      <foreignKeyColumn primaryColumnName="portfolio_id" foreignColumnName="portfolio_id"/>
+    </foreignKey>
+  </foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/SMA/muni/transaction" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="transaction_id" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="transaction_source">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="source_transaction_id">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="security_id">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="cusip">
+        <datatype type="STRING" maxLength="9"/>
+      </element>
+      <element name="broker_id">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="broker_name">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="broker_mp_id">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="transaction_status">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="rebook_flag">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="canceled_by">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="original_transaction_id">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="original_source_transaction_id">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="transaction_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="settle_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="transaction_type">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="transaction_currency">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="transaction_amount">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="4"/>
+      </element>
+      <element name="transaction_amount_local">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="transaction_price">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="3"/>
+      </element>
+      <element name="transaction_price_local">
+        <datatype type="DECIMAL" maxDigits="9" maxFractionalDigits="6"/>
+      </element>
+      <element name="trader_code">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="net_amount_local">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="implied_fee">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="5"/>
+      </element>
+      <element name="executed_yield">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="3"/>
+      </element>
+      <element name="coupon_rate">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="3"/>
+      </element>
+      <element name="accrued_income_local">
+        <datatype type="DECIMAL" maxDigits="12" maxFractionalDigits="2"/>
+      </element>
+      <element name="paydown_factor">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="8"/>
+      </element>
+      <element name="settlement_instructions">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="execution_fins">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="dtc_number">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="ticket_applied_original_date">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="ticket_applied_last_date">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="extended_value_plus_accrued">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="ticket_value_no_acc">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="ticket_commission_ext">
+        <datatype type="DECIMAL" maxDigits="13" maxFractionalDigits="2"/>
+      </element>
+      <element name="pricing_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="market_price">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="3"/>
+      </element>
+      <element name="prev_day_close_price">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="3"/>
+      </element>
+      <element name="bb_ultimate_id">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="trade_entered_by">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="trade_revision_note">
+        <datatype type="STRING" maxLength="500"/>
+      </element>
+      <element name="trade_revision_date">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="trade_revision_user">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="transaction_process_status">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="update_user">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="update_time">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="update_source">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="trade_rationale">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="insert_time">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="block_rationale">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="ticket_no">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/SMA/sma/portfolio" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="portfolio_id" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="pace_entity_id">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="acct_rereg_from">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="acct_rereg_to">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="acct_rereg_reason_sponsor">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="acct_rereg_reason_rr">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="acct_rereg_reason_platform">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="acct_rereg_reason_dtc">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="acct_rereg_reason_fdtype">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="acct_rereg_reason_termdate">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="acct_rereg_reason_portduration">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="acct_rereg_reason_subadvisor">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="acct_rereg_sameday_flag">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="custodian_account_id">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="pace_entity_code">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sponsor_internal_account_cd">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sponsor_sleeve_cd">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="spp_id">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="bpm_case_id">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="apl_creation_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="performance_inception_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="performance_begin_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="ready_for_trading_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="billing_close_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="close_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="custodian">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="apl_sponsor">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="apl_platform">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="portfolio_name">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="portfolio_active_status">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="portfolio_halt_status">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="account_type">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="base_currency">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="port_mgmt_style">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="min_maturity">
+        <datatype type="DECIMAL" maxDigits="12" minFractionalDigits="3" maxFractionalDigits="3"/>
+      </element>
+      <element name="max_maturity">
+        <datatype type="DECIMAL" maxDigits="12" minFractionalDigits="3" maxFractionalDigits="3"/>
+      </element>
+      <element name="maturity_type">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="min_rating">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="min_cash_percent">
+        <datatype type="DECIMAL" maxDigits="12" minFractionalDigits="3" maxFractionalDigits="3"/>
+      </element>
+      <element name="turnover_rule_transferred_in">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="turnover_rule_ev_puchased">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="product_strategy_state">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="product_strategy_type">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="apl_product_type">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="sma_contract_type">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="client_country">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="client_state">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="transaction_cost">
+        <datatype type="DECIMAL" maxDigits="18" minFractionalDigits="2" maxFractionalDigits="2"/>
+      </element>
+      <element name="inception_value">
+        <datatype type="DECIMAL" maxDigits="24" minFractionalDigits="2" maxFractionalDigits="2"/>
+      </element>
+      <element name="termination_value">
+        <datatype type="DECIMAL" maxDigits="24" minFractionalDigits="2" maxFractionalDigits="2"/>
+      </element>
+      <element name="special_pricing_agreement">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="esg_screen_flag">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="sector_screen_flag">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="fa_name">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="fa_state">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="fa_city">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="portfolio_investment_group">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="investment_company">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="pricing_source">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="funding_type">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="update_user" nullable="false">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="update_time" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="perform_account_type">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="backoffice_provider">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="port_market_value_plus_accrued">
+        <datatype type="DECIMAL" maxDigits="32" minFractionalDigits="2" maxFractionalDigits="2"/>
+      </element>
+      <element name="sponsor">
+        <datatype type="STRING" maxLength="75"/>
+      </element>
+      <element name="maturity_range">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="actual_maturity_range">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="actual_min_rating">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="port_custodian">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="port_tags">
+        <datatype type="STRING" maxLength="75"/>
+      </element>
+      <element name="port_restriction">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="portfolio_last_trade_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="no_of_holdings">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="financial_advisor">
+        <datatype type="STRING" maxLength="150"/>
+      </element>
+      <element name="cash_percentage">
+        <datatype type="DECIMAL" maxDigits="14" minFractionalDigits="4" maxFractionalDigits="4"/>
+      </element>
+      <element name="tax_loss_harvesting">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="trading_acct_number">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="min_cash">
+        <datatype type="DECIMAL" maxDigits="23" minFractionalDigits="9" maxFractionalDigits="9"/>
+      </element>
+      <element name="t_bill">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="ESG_Flag">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="broker_restriction_bypass">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="aladdin_ticker">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="rv_trading">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:18:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1591019772656</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">251582</attribute>
+  <attribute name="creatorUserName" type="STRING">drao</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1591019772656</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">251582</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">drao</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1591019772656</attribute>
+</metadata>

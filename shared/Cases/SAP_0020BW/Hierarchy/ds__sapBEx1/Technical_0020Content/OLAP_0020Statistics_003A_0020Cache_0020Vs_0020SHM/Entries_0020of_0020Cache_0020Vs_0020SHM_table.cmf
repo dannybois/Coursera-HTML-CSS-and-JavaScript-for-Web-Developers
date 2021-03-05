@@ -1,0 +1,81 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="Entries of Cache Vs SHM" path="/shared/Cases/SAP BW/Hierarchy/ds_sapBEx1/Technical Content/OLAP Statistics: Cache Vs SHM/Entries of Cache Vs SHM" type="TABLE" subtype="DATABASE_TABLE" changeToken="-4901274832605282234" tableType="NONE">
+  <annotation>&lt;![CDATA[Technical Name: 0TCT_MC06_Q0102]]&gt;</annotation>
+  <columns>
+    <column name="Calendar Day [Key]" nullable="true">
+      <datatype name="0CALDAY" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Calendar Day" nullable="true">
+      <datatype name="0CALDAY" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Maximum Entries Shar" nullable="true">
+      <datatype name="0TCTMSHMENT" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Entries in Sha. Mem" nullable="true">
+      <datatype name="0TCTUSHMENT" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Entries in Cache Mem" nullable="true">
+      <datatype name="0TCTCACHENT" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Calendar Day [Key]" nullable="true">
+      <datatype name="0CALDAY" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Calendar Day" nullable="true">
+      <datatype name="0CALDAY" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1610528213417</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="infoProvider" type="STRING">0TCT_MC06</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610528213417</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="nodeId" type="STRING">X000197</attribute>
+  <attribute name="nodeType" type="STRING">QU</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610528213417</attribute>
+  <attribute name="techName" type="STRING">0TCT_MC06_Q0102</attribute>
+</metadata>

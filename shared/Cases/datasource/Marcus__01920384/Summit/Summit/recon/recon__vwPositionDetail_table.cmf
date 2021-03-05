@@ -1,0 +1,332 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="recon_vwPositionDetail" path="/shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwPositionDetail" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="reconStatus" nullable="true">
+      <datatype name="varchar" extendedName="varchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="effectiveDate" nullable="true">
+      <datatype name="datetime2" extendedName="datetime2" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="entityId" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="securityId" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sourceId" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconDifferences" nullable="true">
+      <datatype name="varchar" extendedName="varchar(608)" subType="DATASOURCE_TYPE" type="STRING" maxLength="608"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="longShortIndicator" nullable="true">
+      <datatype name="varchar" extendedName="varchar(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="shareParValue" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="priceLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketValueBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketValueLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="accruedIncomeBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="accruedIncomeLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketValueIncomeBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketValueIncomeLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="notionalMarketValueBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="notionalMarketValueLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CostBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CostLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="unitCostBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="unitCostLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="notionalCostBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="notionalCostLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="bookValueBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="bookValueLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="amortizationToDateLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="originalFace" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="unrealizedGainLossBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="unrealizedGainLossLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="unrealizedGainLossCurrencyBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="localCurrency" nullable="true">
+      <datatype name="varchar" extendedName="varchar(3)" subType="DATASOURCE_TYPE" type="STRING" maxLength="3"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fxBuyRate" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fxSellRate" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="receivableAmountBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="receivableAmountLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="payableAmountBase" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="payableAmountLocal" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sharesPledged" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sharesOnLoan" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:18:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:19:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:20:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:21:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:22:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:23:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:24:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:25:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:26:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:27:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:28:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:29:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:30:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:31:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:32:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:33:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:34:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:35:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:36:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:37:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:38:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1610484942623</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610484942623</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610484942623</attribute>
+</metadata>

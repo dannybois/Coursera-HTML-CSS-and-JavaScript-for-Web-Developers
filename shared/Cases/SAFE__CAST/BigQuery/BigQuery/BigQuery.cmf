@@ -1,0 +1,101 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="BigQuery" path="/shared/Cases/SAFE_CAST/BigQuery/BigQuery" type="DATA_SOURCE" subtype="RELATIONAL" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="OAuthConfig" type="NULL"/>
+  <attribute name="allowaggregateparameters" type="BOOLEAN">false</attribute>
+  <attribute name="allowlargeresultsets" type="BOOLEAN">true</attribute>
+  <attribute name="allowupdateswithoutkey" type="STRING">ENC(pfL3Qy2Gk72jjrbOuSWNBg==$Ju1LVKp04v3rPUANuD9bpA==)</attribute>
+  <attribute name="alternateSecurityProperties" type="STRING">oauthaccesstoken</attribute>
+  <attribute name="auditlimit" type="STRING">1000</attribute>
+  <attribute name="auditmode" type="STRING"/>
+  <attribute name="bigqueryoptions" type="STRING"/>
+  <attribute name="cacheStatusAndTrackingDS" type="STRING"/>
+  <attribute name="cacheStatusTable" type="STRING"/>
+  <attribute name="cacheTrackingTable" type="STRING"/>
+  <attribute name="commitOnFetchDone" type="BOOLEAN">true</attribute>
+  <attribute name="connCheckOutProcedure" type="STRING"/>
+  <attribute name="connPoolMaxSize" type="INTEGER">100</attribute>
+  <attribute name="connPoolMinSize" type="INTEGER">0</attribute>
+  <attribute name="connPoolTimeout" type="INTEGER">30</attribute>
+  <attribute name="connStaleTimeout" type="INTEGER">60</attribute>
+  <attribute name="connValidateQuery" type="STRING"/>
+  <attribute name="creationDate" type="LONG">1613988685844</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="datasetid" type="STRING">SampleDataSet</attribute>
+  <attribute name="destinationtable" type="STRING"/>
+  <attribute name="driverName" type="STRING">Google BigQuery</attribute>
+  <attribute name="ds.conn_checkout_timeout" type="INTEGER">45</attribute>
+  <attribute name="execTimeout" type="INTEGER">0</attribute>
+  <attribute name="filtercolumns" type="STRING"/>
+  <attribute name="firewallpassword" type="PASSWORD_STRING">ENC(TpVGJI1DQZjJxFMVXpokgg==$aAjghb4wgBLSwsZ/TUjS8Q==)</attribute>
+  <attribute name="firewallport" type="STRING"/>
+  <attribute name="firewallserver" type="STRING"/>
+  <attribute name="firewalltype" type="STRING">NONE</attribute>
+  <attribute name="firewalluser" type="STRING"/>
+  <attribute name="generateschemafiles" type="STRING">Never</attribute>
+  <attribute name="initiateoauth" type="STRING">GETANDREFRESH</attribute>
+  <attribute name="isEnabled" type="BOOLEAN">true</attribute>
+  <attribute name="isPassThrough" type="STRING">Disabled</attribute>
+  <attribute name="jdbcds.comparisons_case_insensitive" type="BOOLEAN">false</attribute>
+  <attribute name="jdbcds.ignore_case_sensitivity_mismatch" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.ignore_trailing_spaces_mismatch" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.no_support_query_timeout" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.trailing_spaces_included_in_comparison" type="BOOLEAN">true</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1613988872094</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="location" type="STRING">%APPDATA%\CData\GoogleBigQuery Data Provider\Schema</attribute>
+  <attribute name="maximumbillingtier" type="STRING"/>
+  <attribute name="maximumbytesbilled" type="STRING"/>
+  <attribute name="maxrows" type="STRING">-1</attribute>
+  <attribute name="name" type="STRING">BigQuery</attribute>
+  <attribute name="oauthaccesstoken" type="STRING"/>
+  <attribute name="oauthclientid" type="STRING"/>
+  <attribute name="oauthclientsecret" type="PASSWORD_STRING">ENC(uwBqiuUIRR+6kEeVFo6KYQ==$hCh4vJ4gjszjIea/fS4SNA==)</attribute>
+  <attribute name="oauthjwtcert" type="STRING">C:\data\BigQuery\clean-healer-232017-db20a488a809.p12</attribute>
+  <attribute name="oauthjwtcertpassword" type="PASSWORD_STRING">ENC(MRh0khtZUeqYz+JD/uVmng==$YRDEDd29oZm+PClsNUIMOw==)</attribute>
+  <attribute name="oauthjwtcertsubject" type="STRING">*</attribute>
+  <attribute name="oauthjwtcerttype" type="STRING">PFXFILE</attribute>
+  <attribute name="oauthjwtissuer" type="STRING">tdvuser@clean-healer-232017.iam.gserviceaccount.com</attribute>
+  <attribute name="oauthjwtsubject" type="STRING">tdvuser@clean-healer-232017.iam.gserviceaccount.com</attribute>
+  <attribute name="oauthrefreshtoken" type="STRING"/>
+  <attribute name="oauthsettingslocation" type="STRING">%APPDATA%\CData\GoogleBigQuery Data Provider\OAuthSettings.txt</attribute>
+  <attribute name="oauthverifier" type="STRING"/>
+  <attribute name="other" type="STRING"/>
+  <attribute name="pagesize" type="STRING">100000</attribute>
+  <attribute name="persistPassword" type="BOOLEAN">true</attribute>
+  <attribute name="pollinginterval" type="STRING">1</attribute>
+  <attribute name="projectid" type="STRING">clean-healer-232017</attribute>
+  <attribute name="proxyauthscheme" type="STRING">BASIC</attribute>
+  <attribute name="proxyautodetect" type="BOOLEAN">true</attribute>
+  <attribute name="proxyexceptions" type="STRING"/>
+  <attribute name="proxypassword" type="PASSWORD_STRING">ENC(rKgiXezcrruh379/JexnZg==$+T7cNcxQXhBFLLdFsys9bg==)</attribute>
+  <attribute name="proxyport" type="STRING">80</attribute>
+  <attribute name="proxyserver" type="STRING"/>
+  <attribute name="proxyssltype" type="STRING">AUTO</attribute>
+  <attribute name="proxyuser" type="STRING"/>
+  <attribute name="readonly" type="BOOLEAN">false</attribute>
+  <attribute name="refreshviewschemas" type="BOOLEAN">true</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1613988685844</attribute>
+  <attribute name="scope" type="STRING"/>
+  <attribute name="showtabledescriptions" type="BOOLEAN">false</attribute>
+  <attribute name="sslservercert" type="STRING"/>
+  <attribute name="storagepagesize" type="STRING">10000</attribute>
+  <attribute name="storagethreshold" type="STRING">100000</attribute>
+  <attribute name="temptabledataset" type="STRING">_CDataTempTableDataset</attribute>
+  <attribute name="temptableexpirationtime" type="STRING">36000</attribute>
+  <attribute name="timeout" type="STRING">300</attribute>
+  <attribute name="txnIsolationLevel" type="STRING">Read Committed</attribute>
+  <attribute name="type" type="STRING">cloud_nosql</attribute>
+  <attribute name="url" type="STRING">GoogleBigQuery</attribute>
+  <attribute name="uselegacysql" type="BOOLEAN">false</attribute>
+  <attribute name="usequerycache" type="BOOLEAN">true</attribute>
+  <attribute name="usestorageapi" type="BOOLEAN">false</attribute>
+  <attribute name="usestreaminginserts" type="BOOLEAN">true</attribute>
+</metadata>

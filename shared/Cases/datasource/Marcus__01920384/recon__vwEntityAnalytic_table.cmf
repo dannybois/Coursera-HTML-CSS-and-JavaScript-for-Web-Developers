@@ -1,0 +1,488 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="recon_vwEntityAnalytic" path="/shared/Cases/datasource/Marcus_01920384/recon_vwEntityAnalytic" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="reconStatus" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconSource" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="viewName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconId" nullable="true">
+      <datatype type="STRING" maxLength="65"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconDifferences" nullable="true">
+      <datatype type="STRING" maxLength="663"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="effectiveDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="entityId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sourceId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sourceCode" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="averagePrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="averageMaturity" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="averageCoupon" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="numberOfIssues" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rating" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="numericalRating" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="effYield" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="oasMid" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="yieldToMaturityBid" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="yieldToMaturityMid" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="yieldToWorstBid" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="yieldToWorstMid" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="modDurationBid" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="modDurationMid" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="modDurationToWorstBid" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="modDurationToWorstMid" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="weightedAverageConvexity" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="weightedAverageMaturity" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="weightedAverageLife" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="weightedAverageLoanAge" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketValue" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketValueIncome" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="spreadBid" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="convexityToWorst" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="spreadDuration" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="spreadToWorst" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="effDuration" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="yearsToWorst" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="netExpenseRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="projectedInd" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="grossExpenseRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="turnoverRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="feesWaived" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="aimrRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="aimrStartDate" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="hasVoluntaryWaiver" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="hasContractedWaiver" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwEntityAnalytic" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="reconStatus">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconSource">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="viewName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconId">
+        <datatype type="STRING" maxLength="65"/>
+      </element>
+      <element name="reconDifferences">
+        <datatype type="STRING" maxLength="663"/>
+      </element>
+      <element name="effectiveDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="entityId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="sourceId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="sourceCode">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="averagePrice">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="averageMaturity">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="averageCoupon">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="numberOfIssues">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="rating">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="numericalRating">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="effYield">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="oasMid">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="yieldToMaturityBid">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="yieldToMaturityMid">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="yieldToWorstBid">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="yieldToWorstMid">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="modDurationBid">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="modDurationMid">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="modDurationToWorstBid">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="modDurationToWorstMid">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="weightedAverageConvexity">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="weightedAverageMaturity">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="weightedAverageLife">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="weightedAverageLoanAge">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="marketValue">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="marketValueIncome">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="spreadBid">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="convexityToWorst">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="spreadDuration">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="spreadToWorst">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="effDuration">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="yearsToWorst">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="netExpenseRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="projectedInd">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="grossExpenseRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="turnoverRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="feesWaived">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="aimrRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="aimrStartDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="hasVoluntaryWaiver">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="hasContractedWaiver">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    recon_vwEntityAnalytic.reconStatus,
+    recon_vwEntityAnalytic.reconSource,
+    recon_vwEntityAnalytic.viewName,
+    recon_vwEntityAnalytic.reconId,
+    recon_vwEntityAnalytic.reconDifferences,
+    recon_vwEntityAnalytic.effectiveDate,
+    recon_vwEntityAnalytic.entityId,
+    recon_vwEntityAnalytic.sourceId,
+    recon_vwEntityAnalytic.sourceCode,
+    recon_vwEntityAnalytic.averagePrice,
+    recon_vwEntityAnalytic.averageMaturity,
+    recon_vwEntityAnalytic.averageCoupon,
+    recon_vwEntityAnalytic.numberOfIssues,
+    recon_vwEntityAnalytic.rating,
+    recon_vwEntityAnalytic.numericalRating,
+    recon_vwEntityAnalytic.effYield,
+    recon_vwEntityAnalytic.oasMid,
+    recon_vwEntityAnalytic.yieldToMaturityBid,
+    recon_vwEntityAnalytic.yieldToMaturityMid,
+    recon_vwEntityAnalytic.yieldToWorstBid,
+    recon_vwEntityAnalytic.yieldToWorstMid,
+    recon_vwEntityAnalytic.modDurationBid,
+    recon_vwEntityAnalytic.modDurationMid,
+    recon_vwEntityAnalytic.modDurationToWorstBid,
+    recon_vwEntityAnalytic.modDurationToWorstMid,
+    recon_vwEntityAnalytic.weightedAverageConvexity,
+    recon_vwEntityAnalytic.weightedAverageMaturity,
+    recon_vwEntityAnalytic.weightedAverageLife,
+    recon_vwEntityAnalytic.weightedAverageLoanAge,
+    recon_vwEntityAnalytic.marketValue,
+    recon_vwEntityAnalytic.marketValueIncome,
+    recon_vwEntityAnalytic.spreadBid,
+    recon_vwEntityAnalytic.convexityToWorst,
+    recon_vwEntityAnalytic.spreadDuration,
+    recon_vwEntityAnalytic.spreadToWorst,
+    recon_vwEntityAnalytic.effDuration,
+    recon_vwEntityAnalytic.yearsToWorst,
+    recon_vwEntityAnalytic.netExpenseRatio,
+    recon_vwEntityAnalytic.projectedInd,
+    recon_vwEntityAnalytic.grossExpenseRatio,
+    recon_vwEntityAnalytic.turnoverRatio,
+    recon_vwEntityAnalytic.feesWaived,
+    recon_vwEntityAnalytic.aimrRatio,
+    recon_vwEntityAnalytic.aimrStartDate,
+    recon_vwEntityAnalytic.hasVoluntaryWaiver,
+    recon_vwEntityAnalytic.hasContractedWaiver
+from /shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwEntityAnalytic</attribute>
+  <attribute name="creationDate" type="LONG">1610487004476</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610491350050</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610487004476</attribute>
+</metadata>

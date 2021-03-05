@@ -1,0 +1,365 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="llp_citi" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/invstage/ent_stage/llp_citi" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="publish_activity_id" nullable="true">
+      <datatype name="varchar" extendedName="varchar(120)" subType="DATASOURCE_TYPE" type="STRING" maxLength="120"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="source_activity_id" nullable="true">
+      <datatype name="varchar" extendedName="varchar(120)" subType="DATASOURCE_TYPE" type="STRING" maxLength="120"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="raw_activity_id" nullable="true">
+      <datatype name="varchar" extendedName="varchar(120)" subType="DATASOURCE_TYPE" type="STRING" maxLength="120"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="raw_record_number" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="computed_batch_column" nullable="true">
+      <datatype name="varchar" extendedName="varchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sourceCode" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="navDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="accountCode" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="entityId" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="securityId" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="securityIdSummit" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="longShortIndicator" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sharesPar" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="costFcy" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="unitCostFcy" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="positionAccountingMarketValueFcy" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="amortizedCostFcy" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nominalValue" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="costLcy" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="costPriceLocalCcy" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="positionAccountingMarketValueLocalCcy" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="amortizedCostLcy" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="accruedIncomeLocal" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="accruedIncome" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="accountingPriceLocalCcy" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="tradeFxRate" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="localCcy" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="exposureValueFundCcy" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="exposureValueLocalCcy" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="unrealizedAccountingTotalGLFundCcy" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="unrealizedAccountingTotalGLLocalCcy" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="unrealizedCcyGLFundCcy" nullable="true">
+      <datatype name="decimal" extendedName="decimal(38,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="baseCurrency" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cashBalanceFundCcy" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="committedCashFundCcy" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="committedCashLocalCcy" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="priceDate" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="priceFundCcy" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="pricingFactor" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="priceExchange" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="allocationId" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="brokerCode" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="processedDate" nullable="true">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:18:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:19:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:20:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:21:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:22:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:23:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:24:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:25:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:26:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:27:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:28:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:29:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:30:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:31:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:32:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:33:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:34:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:35:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:36:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:37:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:38:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:39:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:40:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:41:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:42:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1591019860707</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">251582</attribute>
+  <attribute name="creatorUserName" type="STRING">drao</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1591019860707</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">251582</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">drao</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1591019860707</attribute>
+</metadata>

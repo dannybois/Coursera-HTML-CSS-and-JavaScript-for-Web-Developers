@@ -1,0 +1,580 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="F_POSF" path="/shared/Test/Oracle/Oracle19c_thin/ds_oracle19c/NATHAN1/F_POSF" type="TABLE" subtype="DATABASE_TABLE" changeToken="-3521062237059940258" tableType="TABLE">
+  <columns>
+    <column name="FPOSF_MDTY_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_AS_OF_DAT_ID" nullable="true">
+      <datatype name="INTEGER" extendedName="NUMBER(8,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-99999999" maxValue="99999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_AS_OF_DAT" nullable="true">
+      <datatype name="DATE" extendedName="DATE" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MPFL_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MPFL_AOD_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_FCFH_DMPFL_HID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_FCFH_DMCLT_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_FCFH_DMCLT_HID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_FCFH_CLTALEN_DMPFL_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_FCFH_CLTALEN_DMPFL_HID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_FCFH_SFD_DMPFL_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_FCFH_SFD_DMPFL_HID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_FCFH_FND_DMPFL_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_FCFH_FND_DMPFL_HID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MSML_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MSMF_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MSMX_AOD_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_LCA_MCUR_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_APGBSE_MCUR_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_SRCBSE_MCUR_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MSHC_MSAP_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MSFH_MSAF_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MFTH_MFTK_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MF2H_MFT2_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MFDH_MFDR_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MDCH_MDRO_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_ORI_MSRC_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_POT_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_MLSI_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_MPCS_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_HDT_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MLMB_MBMK_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MLMF_MMFU_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_ILL_MSMF_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_LTT_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_SET_SEQ" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(15,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-999999999999999" maxValue="999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_SET_IND_SEQ" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(15,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-999999999999999" maxValue="999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_LAS_SET_IND" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_NOU_NUM" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(28,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="28" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_MKT_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(28,12)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="28" maxFractionalDigits="12"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_BKV_APGBSE_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_BKV_LCA_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_BKV_SRCBSE_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_CTV_APGBSE_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_CTV_LCA_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_CTV_SRCBSE_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_MKV_APGBSE_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_MKV_LCA_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_MKV_SRCBSE_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_ACI_APGBSE_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_ACI_LCA_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_ACI_SRCBSE_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_EPS_APGBSE_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_EPS_LCA_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_EPS_SRCBSE_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_DXE_APGBSE_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_DXE_LCA_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_FMSAL_OPT_DLT_NUM" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_FMSAL_UND_PRC" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_NTL_APGBSE_AMT" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(15,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_BR_IS_MLA_IND" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_IS_FLB_IND" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MSRC_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_DLRS_NAV_AVL_CLT_IND" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_DLRS_NAV_AVL_ALB_PFL_IND" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_DLRS_NAV_AVL_AOD_IND" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_JOB_RUN_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_MFTH_MFTX_ID" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_IS_AGG_IND" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FPOSF_RST_FRM_INT_TRD_IND" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:18:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:19:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:20:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:21:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:22:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:23:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:24:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:25:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:26:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:27:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:28:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:29:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:30:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:31:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:32:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:33:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:34:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:35:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:36:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:37:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:38:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:39:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:40:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:41:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:42:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:43:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:44:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:45:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:46:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:47:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:48:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:49:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:50:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:51:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:52:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:53:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:54:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:55:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:56:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:57:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:58:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:59:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:60:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:61:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:62:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:63:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:64:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:65:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:66:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:67:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:68:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:69:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1610628382876</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610628382876</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610628382876</attribute>
+</metadata>

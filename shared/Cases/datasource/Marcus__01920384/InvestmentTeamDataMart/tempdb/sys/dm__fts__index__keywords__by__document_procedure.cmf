@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="dm_fts_index_keywords_by_document" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/tempdb/sys/dm_fts_index_keywords_by_document" type="PROCEDURE" subtype="DATABASE_PROCEDURE" changeToken="0">
+  <parameters></parameters>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1591019830440</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">251582</attribute>
+  <attribute name="creatorUserName" type="STRING">drao</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1591019830440</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">251582</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">drao</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1591019830440</attribute>
+</metadata>

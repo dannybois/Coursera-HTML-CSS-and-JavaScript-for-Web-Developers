@@ -1,0 +1,434 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="securityRating" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/securityRating" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="effectiveDate" nullable="false">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="securityId" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sourceId" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ratingSourceId" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rating" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ratingType" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ratingStatus" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="shortTermRating" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="shortTermRatingType" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="shortTermRatingStatus" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ratingDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ltUnderlying" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ltUnderlyingDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="outlook" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="outlookDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="watch" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="watchDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="numericRating" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="inactive" nullable="true">
+      <datatype name="varchar" extendedName="varchar(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertDate" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertSource" nullable="false">
+      <datatype name="varchar" extendedName="varchar(25)" subType="DATASOURCE_TYPE" type="STRING" maxLength="25"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="updateDate" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="updateSource" nullable="false">
+      <datatype name="varchar" extendedName="varchar(25)" subType="DATASOURCE_TYPE" type="STRING" maxLength="25"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="originalCreditRating" nullable="true">
+      <datatype name="varchar" extendedName="varchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="minRating" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="maxRating" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="avgRating" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="minAlphaRating" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="maxAlphaRating" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="avgAlphaRating" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="pkRating" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="effectiveDate" sortOrder="ASCENDING"/>
+      <indexColumn name="securityId" sortOrder="ASCENDING"/>
+      <indexColumn name="sourceId" sortOrder="ASCENDING"/>
+      <indexColumn name="ratingSourceId" sortOrder="ASCENDING"/>
+    </index>
+    <index name="idx_numrate" type="OTHER" unique="false">
+      <indexColumn name="numericRating" sortOrder="ASCENDING"/>
+    </index>
+    <index name="idx_secidEffdt" type="OTHER" unique="false">
+      <indexColumn name="securityId" sortOrder="ASCENDING"/>
+      <indexColumn name="effectiveDate" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys>
+    <foreignKey name="fkRatingSourceId" primaryKeyName="pkSourceId" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/sourceCode">
+      <foreignKeyColumn primaryColumnName="sourceId" foreignColumnName="sourceId"/>
+    </foreignKey>
+    <foreignKey name="fkRatingSecurityId" primaryKeyName="PK_SecurityMaster" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/securityMaster">
+      <foreignKeyColumn primaryColumnName="securityId" foreignColumnName="securityId"/>
+    </foreignKey>
+  </foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/securityMaster" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="securityId" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="paceSecurityAlias">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="issueName" nullable="false">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="issueDescription">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="issuerId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="idBBCompany">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="currency" nullable="false">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="issueCountry" nullable="false">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="coupon">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="maturityDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="ticker">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="investmentType">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="classCodeEV" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="securityType">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="securityType2">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="tradingUnit">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="exchange">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="marketSector">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="industrySubgrpNumber">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="gicsSubIndustryCode">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="marketStatus">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="144aFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="couponFreq">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="descriptionNotes">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="dtcEligibleFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="hybridFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="mifid2Flag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="privatePlacement">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="144aRegistrationRights">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="registeredFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="whenIssued">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="liquidFlag">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="insertDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="insertSource" nullable="false">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="updateDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="updateSource" nullable="false">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="primarySecurityFlag">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="inactiveDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="parAmount">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="esgType">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="billingExcludeFlag">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/sourceCode" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="sourceId" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="sourceCode" nullable="false">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="sourceName" nullable="false">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="insertDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="insertSource" nullable="false">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="updateDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="updateSource" nullable="false">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:18:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:19:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:20:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:21:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:22:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:23:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:24:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:25:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:26:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:27:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:28:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:29:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1600884229029</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1600884229029</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1600884229029</attribute>
+</metadata>

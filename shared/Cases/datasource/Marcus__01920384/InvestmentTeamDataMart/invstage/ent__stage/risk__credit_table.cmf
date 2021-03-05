@@ -1,0 +1,637 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="risk_credit" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/invstage/ent_stage/risk_credit" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="raw_activity_id" nullable="true">
+      <datatype name="varchar" extendedName="varchar(120)" subType="DATASOURCE_TYPE" type="STRING" maxLength="120"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="raw_record_number" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SECID" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RCODE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="NFIELDS" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ID_BB_COMPANY" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LONG_COMP_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ID_BB_PARENT_CO" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LONG_PARENT_COMP_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="INDUSTRY_SECTOR" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="INDUSTRY_GROUP" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="INDUSTRY_SUBGROUP" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CNTRY_OF_DOMICILE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CNTRY_OF_INCORPORATION" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CNTRY_OF_RISK" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="STATE_OF_DOMICILE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="STATE_OF_INCORPORATION" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COMPANY_ADDRESS" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="IS_ULT_PARENT" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="OBLIG_INDUSTRY_SUBGROUP" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ACQUIRED_BY_PARENT" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COMPANY_TO_PARENT_RELATIONSHIP" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ISSUER_NAME_TYPES" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ID_BB_ULTIMATE_PARENT_CO" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LONG_ULT_PARENT_COMP_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COMPANY_CORP_TICKER" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ULT_PARENT_CNTRY_OF_RISK" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ULT_PARENT_TICKER_EXCHANGE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ULT_PARENT_CNTRY_INCORPORATION" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ULT_PARENT_CNTRY_DOMICILE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="INDUSTRY_SUBGROUP_NUM" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COMPANY_LEGAL_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="OBLIGOR_BBID" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ID_BB_GLOBAL_COMPANY" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ID_BB_GLOBAL_PARENT_CO" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ID_BB_GLOBAL_ULTIMATE_PARENT_CO" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ID_BB_GLOBAL_OBLIGOR_COMPANY" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ID_BB_GLOBAL_COMPANY_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ID_BB_GLOBAL_PARENT_COMPANY_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ID_BB_GLOBAL_ULT_PARENT_CO_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ID_BB_GLOBAL_OBLIGOR_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="INDUSTRY_SECTOR_NUM" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="INDUSTRY_GROUP_NUM" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEGAL_ENTITY_IDENTIFIER" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEI_ENTITY_STATUS" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEI_LEGAL_FORM" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEI_ASSIGNED_DATE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEI_LAST_UPDATE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEI_DISABLED_DATE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEI_REGISTRATION_ADDRESS" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEI_RECORD_STATE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEI_MAINTENANCE_STATE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEI_NEXT_MAINTENANCE_DATE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PARENT_OBLIGOR_ID" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PARENT_OBLIGOR_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COUNTRY_RISK_ISO_CODE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ID_REPLACEMENT_IDENTIFIER" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COMPANY_WEB_ADDRESS" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COMPANY_IS_PRIVATE" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ULT_PARENT_CORP_TICKER" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEI_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEI_ULTIMATE_PARENT_COMPANY" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COMPANY_FAX_NUMBER" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COMPANY_TEL_NUMBER" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ALTERNATE_COMPANY_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PREVIOUS_COMPANY_NAMES" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="OTHER_LEI_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="MANAGING_LOCAL_OPER_UNIT_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="MANAGING_LOCAL_OPER_UNIT_LEI" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEI_VALIDATION_SOURCES" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ULTIMATE_OBLIGOR_ID" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ULTIMATE_OBLIGOR_NAME" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ISO_COUNTRY_OF_OBLIGOR" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SYNTHETIC_ENTITY_INDICATOR" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ISSUER_BBID" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COMPANY_STATUS" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="END-OF-FIELDS" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(2147483647)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:18:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:19:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:20:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:21:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:22:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:23:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:24:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:25:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:26:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:27:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:28:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:29:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:30:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:31:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:32:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:33:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:34:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:35:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:36:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:37:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:38:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:39:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:40:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:41:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:42:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:43:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:44:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:45:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:46:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:47:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:48:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:49:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:50:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:51:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:52:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:53:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:54:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:55:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:56:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:57:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:58:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:59:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:60:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:61:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:62:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:63:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:64:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:65:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:66:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:67:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:68:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:69:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:70:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:71:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:72:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:73:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:74:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:75:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:76:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1591019862519</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">251582</attribute>
+  <attribute name="creatorUserName" type="STRING">drao</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1591019862519</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">251582</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">drao</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1591019862519</attribute>
+</metadata>

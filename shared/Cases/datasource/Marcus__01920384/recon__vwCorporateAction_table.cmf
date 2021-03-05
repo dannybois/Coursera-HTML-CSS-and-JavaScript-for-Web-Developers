@@ -1,0 +1,1713 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="recon_vwCorporateAction" path="/shared/Cases/datasource/Marcus_01920384/recon_vwCorporateAction" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="reconStatus" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconId" nullable="true">
+      <datatype type="STRING" maxLength="54"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconDifferences" nullable="true">
+      <datatype type="STRING" maxLength="2573"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sourceCode" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="issuerId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="actionType" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="actionFlag" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="bbUniqueId" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="currencyCode" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAcqFeedSource" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAcqIdBbGlobal" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAcqIdBbGlobalCompany" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAcqIdBbSecNumDes" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAcqTkr" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAcquiredBy" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAddedAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAddress" nullable="true">
+      <datatype type="STRING" maxLength="150"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAdj" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAdvisors" nullable="true">
+      <datatype type="STRING" maxLength="500"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAgent" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAmtComp" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAmtNonComp" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAmtTender" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAmt1" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAmt2" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpAmt3" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpArbitrageProf" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpCash" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpCashVal" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpCost" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpCounterParty" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpcpn" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpCrncy" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpCurPremium" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpCurTotVal" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpDebt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpDistAmtStatus" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpDvdCrncy" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpDvdDrpDiscount" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpEusdTid" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpEusdTidSw" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpExch" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpExchFeedSource" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpExchIdBbGlobal" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpExchIdBbGlobalCompany" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpExchIdBbSecNumDes" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpFactor" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpFilingAmtOffer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpFilingShOffer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpFlag" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpForeignAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpFrankedAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpFreq" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpGrossAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpIdBbComp" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpIdBbSec" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpIndicator" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpInitAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpInitOfferPremium" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpInstallAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpIntl" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpIntlAmtOffer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpIntlShOffer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpMarketSectorDes" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpName" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNetAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewBelgian" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewClass" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewCommon" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewCountry" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewCrncy" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewCusip" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewExch" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewExchRt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewFonds" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewIsin" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewLot" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewName" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewParVal" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewPx" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewSedol" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewSicovam" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewState" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewTkr" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewValor" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNewWpk" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpNotes" nullable="true">
+      <datatype type="STRING" maxLength="350"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOffer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldBelgian" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldClass" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldCommon" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldCountry" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldCrncy" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldCusip" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldExch" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldExchRt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldFonds" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldIsin" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldLot" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldName" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldParVal" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldPx" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldSedol" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldSicovam" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldState" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldTkr" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldValor" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOldWpk" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOptNum" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOptPx" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOptTkr" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpOptlAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpParPct" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPariPasu" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPartPaid" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPctOwned" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPctSought" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPostDayCntDes" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPostEuroAmtOutstanding" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPostEuroCalendarCode" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPostEuroIdIsin" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPostEuroMinIncrement" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPostEuroMinPiece" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPostEuroParAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPreDayCntDes" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPreEuroAmtOutstanding" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPreEuroCalendarCode" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPreEuroCrncy" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPreEuroMinIncrement" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPreEuroMinPiece" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPreEuroParAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPricingAmtOffer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPricingShOffer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpPx" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpReinvestRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpRenounceable" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSchAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSecid" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSecidTyp" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSellerFeedSource" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSellerIdBbGlobal" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSellerIdBbGlobalCompany" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSellerIdBbSecNumDes" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSellerTkr" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSh" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpShNum" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSpinoffFeedSource" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSpinoffIdBbGlobal" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSpinoffIdBbGlobalCompany" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSpinoffIdBbSecNumDes" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSpinoffName" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpSpplAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpStockOpt" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTargetFeedSource" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTargetIdBbGlobal" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTargetIdBbGlobalCompany" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTargetIdBbSecNumDes" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTargetTkr" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTaxAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTaxRt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTermFlag" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTerms" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr1" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr1FeedSource" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr1IdBbGlobal" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr1IdBbGlobalCompany" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr1IdBbSecNumDes" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr2" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr2FeedSource" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr2IdBbGlobal" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr2IdBbGlobalCompany" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr2IdBbSecNumDes" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr3" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr3FeedSource" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr3IdBbGlobal" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr3IdBbGlobalCompany" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTkr3IdBbSecNumDes" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTotAmt" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpTotAmtCrncy" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpUndlCrncy" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpUnit" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cpValPurchased" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwCorporateAction" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="reconStatus">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconId">
+        <datatype type="STRING" maxLength="54"/>
+      </element>
+      <element name="reconDifferences">
+        <datatype type="STRING" maxLength="2573"/>
+      </element>
+      <element name="sourceCode">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="issuerId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="actionType">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="actionFlag">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="bbUniqueId">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="currencyCode">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpAcqFeedSource">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpAcqIdBbGlobal">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpAcqIdBbGlobalCompany">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpAcqIdBbSecNumDes">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpAcqTkr">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpAcquiredBy">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpAddedAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpAddress">
+        <datatype type="STRING" maxLength="150"/>
+      </element>
+      <element name="cpAdj">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpAdvisors">
+        <datatype type="STRING" maxLength="500"/>
+      </element>
+      <element name="cpAgent">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="cpAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpAmtComp">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpAmtNonComp">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpAmtTender">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpAmt1">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpAmt2">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpAmt3">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpArbitrageProf">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpCash">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpCashVal">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpCost">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpCounterParty">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpcpn">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpCrncy">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpCurPremium">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpCurTotVal">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpDebt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpDistAmtStatus">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpDvdCrncy">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpDvdDrpDiscount">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpEusdTid">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpEusdTidSw">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpExch">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpExchFeedSource">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpExchIdBbGlobal">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpExchIdBbGlobalCompany">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpExchIdBbSecNumDes">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpFactor">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpFilingAmtOffer">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpFilingShOffer">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpFlag">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpForeignAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpFrankedAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpFreq">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpGrossAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpIdBbComp">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpIdBbSec">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpIndicator">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpInitAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpInitOfferPremium">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpInstallAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpIntl">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpIntlAmtOffer">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpIntlShOffer">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpMarketSectorDes">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpName">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpNetAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpNewBelgian">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewClass">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewCommon">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewCountry">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewCrncy">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewCusip">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewExch">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewExchRt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpNewFonds">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewIsin">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewLot">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpNewName">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpNewParVal">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpNewPx">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpNewRatio">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpNewSedol">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewSicovam">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewState">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewTkr">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewValor">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNewWpk">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpNotes">
+        <datatype type="STRING" maxLength="350"/>
+      </element>
+      <element name="cpOffer">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpOldBelgian">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldClass">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldCommon">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldCountry">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldCrncy">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldCusip">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldExch">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldExchRt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpOldFonds">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldIsin">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldLot">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpOldName">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpOldParVal">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpOldPx">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpOldRatio">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpOldSedol">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldSicovam">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldState">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldTkr">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldValor">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOldWpk">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOptNum">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpOptPx">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpOptTkr">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpOptlAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpParPct">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPariPasu">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpPartPaid">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpPctOwned">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPctSought">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPostDayCntDes">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpPostEuroAmtOutstanding">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPostEuroCalendarCode">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpPostEuroIdIsin">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpPostEuroMinIncrement">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPostEuroMinPiece">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPostEuroParAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPreDayCntDes">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpPreEuroAmtOutstanding">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPreEuroCalendarCode">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpPreEuroCrncy">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpPreEuroMinIncrement">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPreEuroMinPiece">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPreEuroParAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPricingAmtOffer">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPricingShOffer">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpPx">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpRatio">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpReinvestRatio">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpRenounceable">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpSchAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpSecid">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpSecidTyp">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpSellerFeedSource">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpSellerIdBbGlobal">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpSellerIdBbGlobalCompany">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpSellerIdBbSecNumDes">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpSellerTkr">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpSh">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpShNum">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpSpinoffFeedSource">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpSpinoffIdBbGlobal">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpSpinoffIdBbGlobalCompany">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpSpinoffIdBbSecNumDes">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpSpinoffName">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpSpplAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpStockOpt">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpTargetFeedSource">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpTargetIdBbGlobal">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTargetIdBbGlobalCompany">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTargetIdBbSecNumDes">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpTargetTkr">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTaxAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpTaxRt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpTermFlag">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpTerms">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpTkr">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTkr1">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTkr1FeedSource">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpTkr1IdBbGlobal">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTkr1IdBbGlobalCompany">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTkr1IdBbSecNumDes">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpTkr2">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTkr2FeedSource">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpTkr2IdBbGlobal">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTkr2IdBbGlobalCompany">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTkr2IdBbSecNumDes">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpTkr3">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTkr3FeedSource">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpTkr3IdBbGlobal">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTkr3IdBbGlobalCompany">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="cpTkr3IdBbSecNumDes">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpTotAmt">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cpTotAmtCrncy">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpUndlCrncy">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="cpUnit">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cpValPurchased">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    *
+from 
+/shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwCorporateAction</attribute>
+  <attribute name="creationDate" type="LONG">1611253125189</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1611253866142</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1611253125189</attribute>
+</metadata>

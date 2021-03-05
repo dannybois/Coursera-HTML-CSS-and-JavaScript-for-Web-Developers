@@ -1,0 +1,35 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="sp_MSget_logicalrecord_lineage" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/sys/sp_MSget_logicalrecord_lineage" type="PROCEDURE" subtype="DATABASE_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="@RETURN_VALUE" direction="RETURN" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@pubid" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier(16)" subType="DATASOURCE_TYPE" type="STRING" minLength="16" maxLength="16"/>
+    </parameter>
+    <parameter name="@parent_nickname" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@parent_rowguid" direction="IN" nullable="true">
+      <datatype name="uniqueidentifier" extendedName="uniqueidentifier(16)" subType="DATASOURCE_TYPE" type="STRING" minLength="16" maxLength="16"/>
+    </parameter>
+    <parameter name="@dest_common_gen" direction="IN" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1591019685137</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">251582</attribute>
+  <attribute name="creatorUserName" type="STRING">drao</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1591019685137</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">251582</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">drao</attribute>
+  <attribute name="orgName" type="STRING">sp_MSget_logicalrecord_lineage;1</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1591019685137</attribute>
+</metadata>

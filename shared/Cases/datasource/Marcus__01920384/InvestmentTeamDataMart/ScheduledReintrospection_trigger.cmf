@@ -1,0 +1,86 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="ScheduledReintrospection" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ScheduledReintrospection" type="TRIGGER" subtype="NONE" changeToken="0">
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart" type="DATA_SOURCE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="actionProperties" type="MAP">
+    <item>
+      <key type="STRING">PATH</key>
+      <value type="STRING">/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart</value>
+    </item>
+    <item>
+      <key type="STRING">SUBJECT</key>
+      <value type="STRING">Data Source Re-introspection Results</value>
+    </item>
+    <item>
+      <key type="STRING">TO</key>
+      <value type="STRING">IT-DataArchitecture@EatonVance.Com</value>
+    </item>
+    <item>
+      <key type="STRING">NO_COMMIT</key>
+      <value type="BOOLEAN">false</value>
+    </item>
+  </attribute>
+  <attribute name="actionType" type="STRING">REINTROSPECT</attribute>
+  <attribute name="conditionSchedule" type="MAP">
+    <item>
+      <key type="STRING">mode</key>
+      <value type="STRING">CALENDAR</value>
+    </item>
+    <item>
+      <key type="STRING">period</key>
+      <value type="INTEGER">2</value>
+    </item>
+    <item>
+      <key type="STRING">endTimeInADay</key>
+      <value type="LONG">-1</value>
+    </item>
+    <item>
+      <key type="STRING">recurringDay</key>
+      <value type="INTEGER">-1</value>
+    </item>
+    <item>
+      <key type="STRING">count</key>
+      <value type="INTEGER">1</value>
+    </item>
+    <item>
+      <key type="STRING">startTime</key>
+      <value type="LONG">1543298400000</value>
+    </item>
+    <item>
+      <key type="STRING">interval</key>
+      <value type="INTEGER">0</value>
+    </item>
+    <item>
+      <key type="STRING">endTime</key>
+      <value type="LONG">9223372036854775807</value>
+    </item>
+    <item>
+      <key type="STRING">fromTimeInADay</key>
+      <value type="LONG">-1</value>
+    </item>
+    <item>
+      <key type="STRING">isCluster</key>
+      <value type="BOOLEAN">false</value>
+    </item>
+  </attribute>
+  <attribute name="conditionType" type="STRING">TIMER</attribute>
+  <attribute name="creationDate" type="LONG">1543341687049</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">227339</attribute>
+  <attribute name="creatorUserName" type="STRING">fwright</attribute>
+  <attribute name="enabled" type="BOOLEAN">true</attribute>
+  <attribute name="hidden" type="BOOLEAN">true</attribute>
+  <attribute name="impactLevel" type="INTEGER">0</attribute>
+  <attribute name="impactMessage" type="NULL"/>
+  <attribute name="lastModifiedDate" type="LONG">1614941972496</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">227339</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1543341687049</attribute>
+</metadata>

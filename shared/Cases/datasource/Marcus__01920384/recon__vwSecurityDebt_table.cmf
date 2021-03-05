@@ -1,0 +1,1338 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="recon_vwSecurityDebt" path="/shared/Cases/datasource/Marcus_01920384/recon_vwSecurityDebt" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="reconStatus" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconSource" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="viewName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconDifferences" nullable="true">
+      <datatype type="STRING" maxLength="1900"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="securityId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="dayCountDescription" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="typeOfBond" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="baseAccrualRateBack1" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="baseAccrualRateDateBack1" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="floaterSpread" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="bvalAssetClass" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="calcMaturity" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="calcType" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="calcTypeDescription" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="callable" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="callDiscrete" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="callFeature" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="callNotificationMaxDays" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="callNotificationMinDays" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="callPartial" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="capitalContingentSecurity" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="catastrophe" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="collateralType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="convertible" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="convertibleStartDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="countryGuarantor" nullable="true">
+      <datatype type="STRING" maxLength="16"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="couponAsofDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="couponCap" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="couponFloor" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="couponType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="creditEnhancement" nullable="true">
+      <datatype type="STRING" maxLength="38"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cvCommonExchange" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cvCommonIsin" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cvCommonTicker" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cvConversionPrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cvConversionRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cvStockDividend" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cvStockPrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cvUntil" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="datedDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="dayCount" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="defaultDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="defaultFlag" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="deflationProtectedMaturity" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="deliveryType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="facilitySize" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="finalMaturity" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="firstCouponDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="firstRateResetDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="firstSettleDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="floater" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fltCouponConvention" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fltDaysPrior" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fltLockoutDays" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fltMaxCoupon" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fltMinCoupon" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fltPayDay" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="baseCPI" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ilbIndexPrecision" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="accreditedInvestor" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="trustPreferredInd" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="structuredNote" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="subordinated" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="amountIssued" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="issueDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="issuePrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="lastIncomeDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="lastRefixDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="leadManager" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="lienType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="lifetimeCap" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="lifetimeFloor" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="loanTranche" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="loanType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="letterOfCreditFlag" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="makeWholeCall" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketIssue" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="maturityRefundType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="medTermNoteFlag" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="minPiece" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="minIncrement" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mmDealers" nullable="true">
+      <datatype type="STRING" maxLength="256"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mmGuarantor" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mostRecentReportedFactor" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="multiCpnScheduleType" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="secondarilyInsured" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="yieldAtIssue" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nextCouponDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nextCallDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nextCallPrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nextParCallDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nextParPutDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nextPremiumCallDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nextPutDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nextPutPrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nextRefixDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nextRefundDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nextSinkDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="obligor" nullable="true">
+      <datatype type="STRING" maxLength="62"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="oidBond" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="amountOutstanding" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cvParity" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="percentSinker" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="penultimateCouponDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="percentPremium" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevCouponDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="perpetual" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="putExpired" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="putFeature" nullable="true">
+      <datatype type="STRING" maxLength="24"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="putFreq" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="putNotificationMaxDays" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="putNotificationMinDays" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="puttable" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="realFirstCouponDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="redempValue" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="refixFreq" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="regulatoryType" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="resetIndex" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="resetLagDays" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="secDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="series" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sinkFreq" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sinkFund" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sinkType" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="spreadType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="stateCode" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="stepupCoupon" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="stepupDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="stockCurrency" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="zeroCoupon" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwSecurityDebt" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="reconStatus">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconSource">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="viewName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="reconDifferences">
+        <datatype type="STRING" maxLength="1900"/>
+      </element>
+      <element name="securityId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="dayCountDescription">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="typeOfBond">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="baseAccrualRateBack1">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="baseAccrualRateDateBack1">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="floaterSpread">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="bvalAssetClass">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="calcMaturity">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="calcType">
+        <datatype type="DECIMAL" maxDigits="28" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="calcTypeDescription">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="callable">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="callDiscrete">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="callFeature">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="callNotificationMaxDays">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="10" maxFractionalDigits="10"/>
+      </element>
+      <element name="callNotificationMinDays">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="10" maxFractionalDigits="10"/>
+      </element>
+      <element name="callPartial">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="capitalContingentSecurity">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="catastrophe">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="collateralType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="convertible">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="convertibleStartDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="countryGuarantor">
+        <datatype type="STRING" maxLength="16"/>
+      </element>
+      <element name="couponAsofDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="couponCap">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="couponFloor">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="couponType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="creditEnhancement">
+        <datatype type="STRING" maxLength="38"/>
+      </element>
+      <element name="cvCommonExchange">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cvCommonIsin">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="cvCommonTicker">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="cvConversionPrice">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cvConversionRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cvStockDividend">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cvStockPrice">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cvUntil">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="datedDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="dayCount">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="defaultDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="defaultFlag">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="deflationProtectedMaturity">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="deliveryType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="facilitySize">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="finalMaturity">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="firstCouponDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="firstRateResetDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="firstSettleDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="floater">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="fltCouponConvention">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="fltDaysPrior">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fltLockoutDays">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fltMaxCoupon">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fltMinCoupon">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="fltPayDay">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="baseCPI">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="ilbIndexPrecision">
+        <datatype type="DECIMAL" maxDigits="38" maxFractionalDigits="0"/>
+      </element>
+      <element name="accreditedInvestor">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="trustPreferredInd">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="structuredNote">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="subordinated">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="amountIssued">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="issueDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="issuePrice">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="lastIncomeDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="lastRefixDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="leadManager">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="lienType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="lifetimeCap">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="lifetimeFloor">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="loanTranche">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="loanType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="letterOfCreditFlag">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="makeWholeCall">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="marketIssue">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="maturityRefundType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="medTermNoteFlag">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="minPiece">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="minIncrement">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="mmDealers">
+        <datatype type="STRING" maxLength="256"/>
+      </element>
+      <element name="mmGuarantor">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="mostRecentReportedFactor">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="multiCpnScheduleType">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="secondarilyInsured">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="yieldAtIssue">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="nextCouponDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="nextCallDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="nextCallPrice">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="nextParCallDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="nextParPutDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="nextPremiumCallDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="nextPutDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="nextPutPrice">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="nextRefixDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="nextRefundDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="nextSinkDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="obligor">
+        <datatype type="STRING" maxLength="62"/>
+      </element>
+      <element name="oidBond">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="amountOutstanding">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cvParity">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="percentSinker">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="penultimateCouponDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="percentPremium">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="prevCouponDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="perpetual">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="putExpired">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="putFeature">
+        <datatype type="STRING" maxLength="24"/>
+      </element>
+      <element name="putFreq">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="putNotificationMaxDays">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="10" maxFractionalDigits="10"/>
+      </element>
+      <element name="putNotificationMinDays">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="10" maxFractionalDigits="10"/>
+      </element>
+      <element name="puttable">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="realFirstCouponDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="redempValue">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="refixFreq">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="regulatoryType">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="resetIndex">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="resetLagDays">
+        <datatype type="DECIMAL" maxDigits="38" maxFractionalDigits="0"/>
+      </element>
+      <element name="secDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="series">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="sinkFreq">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="sinkFund">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="sinkType">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="spreadType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="stateCode">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="stepupCoupon">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="stepupDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="stockCurrency">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="zeroCoupon">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    recon_vwSecurityDebt.reconStatus,
+    recon_vwSecurityDebt.reconSource,
+    recon_vwSecurityDebt.viewName,
+    recon_vwSecurityDebt.reconId,
+    recon_vwSecurityDebt.reconDifferences,
+    recon_vwSecurityDebt.securityId,
+    recon_vwSecurityDebt.dayCountDescription,
+    recon_vwSecurityDebt.typeOfBond,
+    recon_vwSecurityDebt.baseAccrualRateBack1,
+    recon_vwSecurityDebt.baseAccrualRateDateBack1,
+    recon_vwSecurityDebt.floaterSpread,
+    recon_vwSecurityDebt.bvalAssetClass,
+    recon_vwSecurityDebt.calcMaturity,
+    recon_vwSecurityDebt.calcType,
+    recon_vwSecurityDebt.calcTypeDescription,
+    recon_vwSecurityDebt.callable,
+    recon_vwSecurityDebt.callDiscrete,
+    recon_vwSecurityDebt.callFeature,
+    recon_vwSecurityDebt.callNotificationMaxDays,
+    recon_vwSecurityDebt.callNotificationMinDays,
+    recon_vwSecurityDebt.callPartial,
+    recon_vwSecurityDebt.capitalContingentSecurity,
+    recon_vwSecurityDebt.catastrophe,
+    recon_vwSecurityDebt.collateralType,
+    recon_vwSecurityDebt.convertible,
+    recon_vwSecurityDebt.convertibleStartDate,
+    recon_vwSecurityDebt.countryGuarantor,
+    recon_vwSecurityDebt.couponAsofDate,
+    recon_vwSecurityDebt.couponCap,
+    recon_vwSecurityDebt.couponFloor,
+    recon_vwSecurityDebt.couponType,
+    recon_vwSecurityDebt.creditEnhancement,
+    recon_vwSecurityDebt.cvCommonExchange,
+    recon_vwSecurityDebt.cvCommonIsin,
+    recon_vwSecurityDebt.cvCommonTicker,
+    recon_vwSecurityDebt.cvConversionPrice,
+    recon_vwSecurityDebt.cvConversionRatio,
+    recon_vwSecurityDebt.cvStockDividend,
+    recon_vwSecurityDebt.cvStockPrice,
+    recon_vwSecurityDebt.cvUntil,
+    recon_vwSecurityDebt.datedDate,
+    recon_vwSecurityDebt.dayCount,
+    recon_vwSecurityDebt.defaultDate,
+    recon_vwSecurityDebt.defaultFlag,
+    recon_vwSecurityDebt.deflationProtectedMaturity,
+    recon_vwSecurityDebt.deliveryType,
+    recon_vwSecurityDebt.facilitySize,
+    recon_vwSecurityDebt.finalMaturity,
+    recon_vwSecurityDebt.firstCouponDate,
+    recon_vwSecurityDebt.firstRateResetDate,
+    recon_vwSecurityDebt.firstSettleDate,
+    recon_vwSecurityDebt.floater,
+    recon_vwSecurityDebt.fltCouponConvention,
+    recon_vwSecurityDebt.fltDaysPrior,
+    recon_vwSecurityDebt.fltLockoutDays,
+    recon_vwSecurityDebt.fltMaxCoupon,
+    recon_vwSecurityDebt.fltMinCoupon,
+    recon_vwSecurityDebt.fltPayDay,
+    recon_vwSecurityDebt.baseCPI,
+    recon_vwSecurityDebt.ilbIndexPrecision,
+    recon_vwSecurityDebt.accreditedInvestor,
+    recon_vwSecurityDebt.trustPreferredInd,
+    recon_vwSecurityDebt.structuredNote,
+    recon_vwSecurityDebt.subordinated,
+    recon_vwSecurityDebt.amountIssued,
+    recon_vwSecurityDebt.issueDate,
+    recon_vwSecurityDebt.issuePrice,
+    recon_vwSecurityDebt.lastIncomeDate,
+    recon_vwSecurityDebt.lastRefixDate,
+    recon_vwSecurityDebt.leadManager,
+    recon_vwSecurityDebt.lienType,
+    recon_vwSecurityDebt.lifetimeCap,
+    recon_vwSecurityDebt.lifetimeFloor,
+    recon_vwSecurityDebt.loanTranche,
+    recon_vwSecurityDebt.loanType,
+    recon_vwSecurityDebt.letterOfCreditFlag,
+    recon_vwSecurityDebt.makeWholeCall,
+    recon_vwSecurityDebt.marketIssue,
+    recon_vwSecurityDebt.maturityRefundType,
+    recon_vwSecurityDebt.medTermNoteFlag,
+    recon_vwSecurityDebt.minPiece,
+    recon_vwSecurityDebt.minIncrement,
+    recon_vwSecurityDebt.mmDealers,
+    recon_vwSecurityDebt.mmGuarantor,
+    recon_vwSecurityDebt.mostRecentReportedFactor,
+    recon_vwSecurityDebt.multiCpnScheduleType,
+    recon_vwSecurityDebt.secondarilyInsured,
+    recon_vwSecurityDebt.yieldAtIssue,
+    recon_vwSecurityDebt.nextCouponDate,
+    recon_vwSecurityDebt.nextCallDate,
+    recon_vwSecurityDebt.nextCallPrice,
+    recon_vwSecurityDebt.nextParCallDate,
+    recon_vwSecurityDebt.nextParPutDate,
+    recon_vwSecurityDebt.nextPremiumCallDate,
+    recon_vwSecurityDebt.nextPutDate,
+    recon_vwSecurityDebt.nextPutPrice,
+    recon_vwSecurityDebt.nextRefixDate,
+    recon_vwSecurityDebt.nextRefundDate,
+    recon_vwSecurityDebt.nextSinkDate,
+    recon_vwSecurityDebt.obligor,
+    recon_vwSecurityDebt.oidBond,
+    recon_vwSecurityDebt.amountOutstanding,
+    recon_vwSecurityDebt.cvParity,
+    recon_vwSecurityDebt.percentSinker,
+    recon_vwSecurityDebt.penultimateCouponDate,
+    recon_vwSecurityDebt.percentPremium,
+    recon_vwSecurityDebt.prevCouponDate,
+    recon_vwSecurityDebt.perpetual,
+    recon_vwSecurityDebt.putExpired,
+    recon_vwSecurityDebt.putFeature,
+    recon_vwSecurityDebt.putFreq,
+    recon_vwSecurityDebt.putNotificationMaxDays,
+    recon_vwSecurityDebt.putNotificationMinDays,
+    recon_vwSecurityDebt.puttable,
+    recon_vwSecurityDebt.realFirstCouponDate,
+    recon_vwSecurityDebt.redempValue,
+    recon_vwSecurityDebt.refixFreq,
+    recon_vwSecurityDebt.regulatoryType,
+    recon_vwSecurityDebt.resetIndex,
+    recon_vwSecurityDebt.resetLagDays,
+    recon_vwSecurityDebt.secDate,
+    recon_vwSecurityDebt.series,
+    recon_vwSecurityDebt.sinkFreq,
+    recon_vwSecurityDebt.sinkFund,
+    recon_vwSecurityDebt.sinkType,
+    recon_vwSecurityDebt.spreadType,
+    recon_vwSecurityDebt.stateCode,
+    recon_vwSecurityDebt.stepupCoupon,
+    recon_vwSecurityDebt.stepupDate,
+    recon_vwSecurityDebt.stockCurrency,
+    recon_vwSecurityDebt.zeroCoupon
+from /shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwSecurityDebt</attribute>
+  <attribute name="creationDate" type="LONG">1610487056761</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610491350050</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610487056761</attribute>
+</metadata>

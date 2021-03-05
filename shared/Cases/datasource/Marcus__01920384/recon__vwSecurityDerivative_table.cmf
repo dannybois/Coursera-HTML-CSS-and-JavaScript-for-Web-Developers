@@ -1,0 +1,458 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="recon_vwSecurityDerivative" path="/shared/Cases/datasource/Marcus_01920384/recon_vwSecurityDerivative" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="reconStatus" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconSource" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="viewName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconDifferences" nullable="true">
+      <datatype type="STRING" maxLength="560"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="securityId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="contractSize" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="conversionFactor" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ctdMaturityDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="firstDeliveryDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="delta" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="deltaMid" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="lastTradableDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="firstNoticeDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="actualRepoRate" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="convDurationBasedOnCtd" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="contractDate" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ctd" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ctdAdjContractValue" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ctdConvDuration" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ctdConvYield" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ctdCoupon" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ctdCusip" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ctdFreq" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ctdIsin" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ctdPrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ctdSedol" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="eqvDurBasedOnCtd" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="futExchLongName" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="futLongName" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="futPutDelta" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="futRollDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="futCategory" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="optExerciseType" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="optUnderlyingPrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="primaryExchangeName" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="putCallFlag" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="strikePrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="underlyingCurrency" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="underlyingCusip" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="underlyingIsin" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="underlyingTicker" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="uniqueIdFutOpt" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwSecurityDerivative" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="reconStatus">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconSource">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="viewName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="reconDifferences">
+        <datatype type="STRING" maxLength="560"/>
+      </element>
+      <element name="securityId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="contractSize">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="conversionFactor">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="ctdMaturityDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="firstDeliveryDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="delta">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="deltaMid">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="lastTradableDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="firstNoticeDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="actualRepoRate">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="convDurationBasedOnCtd">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="contractDate">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="ctd">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="ctdAdjContractValue">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="ctdConvDuration">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="ctdConvYield">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="ctdCoupon">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="ctdCusip">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="ctdFreq">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="ctdIsin">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="ctdPrice">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="ctdSedol">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="eqvDurBasedOnCtd">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="futExchLongName">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="futLongName">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="futPutDelta">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="futRollDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="futCategory">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="optExerciseType">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="optUnderlyingPrice">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="primaryExchangeName">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="putCallFlag">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="strikePrice">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="underlyingCurrency">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="underlyingCusip">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="underlyingIsin">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="underlyingTicker">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="uniqueIdFutOpt">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    recon_vwSecurityDerivative.reconStatus,
+    recon_vwSecurityDerivative.reconSource,
+    recon_vwSecurityDerivative.viewName,
+    recon_vwSecurityDerivative.reconId,
+    recon_vwSecurityDerivative.reconDifferences,
+    recon_vwSecurityDerivative.securityId,
+    recon_vwSecurityDerivative.contractSize,
+    recon_vwSecurityDerivative.conversionFactor,
+    recon_vwSecurityDerivative.ctdMaturityDate,
+    recon_vwSecurityDerivative.firstDeliveryDate,
+    recon_vwSecurityDerivative.delta,
+    recon_vwSecurityDerivative.deltaMid,
+    recon_vwSecurityDerivative.lastTradableDate,
+    recon_vwSecurityDerivative.firstNoticeDate,
+    recon_vwSecurityDerivative.actualRepoRate,
+    recon_vwSecurityDerivative.convDurationBasedOnCtd,
+    recon_vwSecurityDerivative.contractDate,
+    recon_vwSecurityDerivative.ctd,
+    recon_vwSecurityDerivative.ctdAdjContractValue,
+    recon_vwSecurityDerivative.ctdConvDuration,
+    recon_vwSecurityDerivative.ctdConvYield,
+    recon_vwSecurityDerivative.ctdCoupon,
+    recon_vwSecurityDerivative.ctdCusip,
+    recon_vwSecurityDerivative.ctdFreq,
+    recon_vwSecurityDerivative.ctdIsin,
+    recon_vwSecurityDerivative.ctdPrice,
+    recon_vwSecurityDerivative.ctdSedol,
+    recon_vwSecurityDerivative.eqvDurBasedOnCtd,
+    recon_vwSecurityDerivative.futExchLongName,
+    recon_vwSecurityDerivative.futLongName,
+    recon_vwSecurityDerivative.futPutDelta,
+    recon_vwSecurityDerivative.futRollDate,
+    recon_vwSecurityDerivative.futCategory,
+    recon_vwSecurityDerivative.optExerciseType,
+    recon_vwSecurityDerivative.optUnderlyingPrice,
+    recon_vwSecurityDerivative.primaryExchangeName,
+    recon_vwSecurityDerivative.putCallFlag,
+    recon_vwSecurityDerivative.strikePrice,
+    recon_vwSecurityDerivative.underlyingCurrency,
+    recon_vwSecurityDerivative.underlyingCusip,
+    recon_vwSecurityDerivative.underlyingIsin,
+    recon_vwSecurityDerivative.underlyingTicker,
+    recon_vwSecurityDerivative.uniqueIdFutOpt
+from /shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwSecurityDerivative</attribute>
+  <attribute name="creationDate" type="LONG">1610486666503</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610491350050</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610486666503</attribute>
+</metadata>

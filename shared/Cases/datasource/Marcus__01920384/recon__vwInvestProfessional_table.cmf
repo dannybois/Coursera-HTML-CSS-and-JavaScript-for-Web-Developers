@@ -1,0 +1,938 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="recon_vwInvestProfessional" path="/shared/Cases/datasource/Marcus_01920384/recon_vwInvestProfessional" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="reconStatus" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconSource" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="viewName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconDifferences" nullable="true">
+      <datatype type="STRING" maxLength="1347"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="investProfessionalId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="firstName" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="middleName" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="lastName" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="displayName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="evStartDate" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="industryStartDate" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="employeeId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fullTitle" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="managerSubType" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="shortName" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prefix" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="suffix" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="position" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="positionTitle" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="company" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="companyLongName" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="department" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="subDepartment" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="tradingDepartment" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketingTitle" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="officerTitle" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="investmentCommittee" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sector1" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sector2" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sector3" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sector4" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sector5" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sector6" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sector7" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="status" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="startDate" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="terminationDate" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="terminationReason" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="degree1" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="degree1Concentration" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="degree1School" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="degree1Year" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="degree2" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="degree2Concentration" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="degree2School" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="degree2Year" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="degree3" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="degree3Concentration" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="degree3School" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="degree3Year" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience1" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience1BegYear" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience1EndYear" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience1Title" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience2" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience2BegYear" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience2EndYear" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience2Title" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience3" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience3BegYear" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience3EndYear" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience3Title" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience4" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience4BegYear" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience4EndYear" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience4Title" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience5" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience5BegYear" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience5EndYear" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience5Title" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience6" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience6BegYear" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience6EndYear" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="prevExperience6Title" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="bioLine1" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="bioLine2" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="bioLine3" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="bioLine4" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="bioLine5" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="association1" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="association2" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="association3" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="association4" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="association5" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="association6" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="designation1" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="designation2" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="designation2School" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="designation3" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="designation3School" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwInvestProfessional" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="reconStatus">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconSource">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="viewName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="reconDifferences">
+        <datatype type="STRING" maxLength="1347"/>
+      </element>
+      <element name="investProfessionalId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="firstName">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="middleName">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="lastName">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="displayName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="evStartDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="industryStartDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="employeeId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="fullTitle">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="managerSubType">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="shortName">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="prefix">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="suffix">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="position">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="positionTitle">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="company">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="companyLongName">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="department">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="subDepartment">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="tradingDepartment">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="marketingTitle">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="officerTitle">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="investmentCommittee">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sector1">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sector2">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sector3">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sector4">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sector5">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sector6">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sector7">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="status">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="startDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="terminationDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="terminationReason">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="degree1">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="degree1Concentration">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="degree1School">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="degree1Year">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="degree2">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="degree2Concentration">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="degree2School">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="degree2Year">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="degree3">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="degree3Concentration">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="degree3School">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="degree3Year">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience1">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="prevExperience1BegYear">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience1EndYear">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience1Title">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="prevExperience2">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="prevExperience2BegYear">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience2EndYear">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience2Title">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="prevExperience3">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="prevExperience3BegYear">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience3EndYear">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience3Title">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="prevExperience4">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="prevExperience4BegYear">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience4EndYear">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience4Title">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="prevExperience5">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="prevExperience5BegYear">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience5EndYear">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience5Title">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="prevExperience6">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="prevExperience6BegYear">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience6EndYear">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="prevExperience6Title">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="bioLine1">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="bioLine2">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="bioLine3">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="bioLine4">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="bioLine5">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="association1">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="association2">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="association3">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="association4">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="association5">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="association6">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="designation1">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="designation2">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="designation2School">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="designation3">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="designation3School">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    recon_vwInvestProfessional.reconStatus,
+    recon_vwInvestProfessional.reconSource,
+    recon_vwInvestProfessional.viewName,
+    recon_vwInvestProfessional.reconId,
+    recon_vwInvestProfessional.reconDifferences,
+    recon_vwInvestProfessional.investProfessionalId,
+    recon_vwInvestProfessional.firstName,
+    recon_vwInvestProfessional.middleName,
+    recon_vwInvestProfessional.lastName,
+    recon_vwInvestProfessional.displayName,
+    recon_vwInvestProfessional.evStartDate,
+    recon_vwInvestProfessional.industryStartDate,
+    recon_vwInvestProfessional.employeeId,
+    recon_vwInvestProfessional.fullTitle,
+    recon_vwInvestProfessional.managerSubType,
+    recon_vwInvestProfessional.shortName,
+    recon_vwInvestProfessional.prefix,
+    recon_vwInvestProfessional.suffix,
+    recon_vwInvestProfessional.&quot;position&quot;,
+    recon_vwInvestProfessional.positionTitle,
+    recon_vwInvestProfessional.company,
+    recon_vwInvestProfessional.companyLongName,
+    recon_vwInvestProfessional.department,
+    recon_vwInvestProfessional.subDepartment,
+    recon_vwInvestProfessional.tradingDepartment,
+    recon_vwInvestProfessional.marketingTitle,
+    recon_vwInvestProfessional.officerTitle,
+    recon_vwInvestProfessional.investmentCommittee,
+    recon_vwInvestProfessional.sector1,
+    recon_vwInvestProfessional.sector2,
+    recon_vwInvestProfessional.sector3,
+    recon_vwInvestProfessional.sector4,
+    recon_vwInvestProfessional.sector5,
+    recon_vwInvestProfessional.sector6,
+    recon_vwInvestProfessional.sector7,
+    recon_vwInvestProfessional.status,
+    recon_vwInvestProfessional.startDate,
+    recon_vwInvestProfessional.terminationDate,
+    recon_vwInvestProfessional.terminationReason,
+    recon_vwInvestProfessional.degree1,
+    recon_vwInvestProfessional.degree1Concentration,
+    recon_vwInvestProfessional.degree1School,
+    recon_vwInvestProfessional.degree1Year,
+    recon_vwInvestProfessional.degree2,
+    recon_vwInvestProfessional.degree2Concentration,
+    recon_vwInvestProfessional.degree2School,
+    recon_vwInvestProfessional.degree2Year,
+    recon_vwInvestProfessional.degree3,
+    recon_vwInvestProfessional.degree3Concentration,
+    recon_vwInvestProfessional.degree3School,
+    recon_vwInvestProfessional.degree3Year,
+    recon_vwInvestProfessional.prevExperience1,
+    recon_vwInvestProfessional.prevExperience1BegYear,
+    recon_vwInvestProfessional.prevExperience1EndYear,
+    recon_vwInvestProfessional.prevExperience1Title,
+    recon_vwInvestProfessional.prevExperience2,
+    recon_vwInvestProfessional.prevExperience2BegYear,
+    recon_vwInvestProfessional.prevExperience2EndYear,
+    recon_vwInvestProfessional.prevExperience2Title,
+    recon_vwInvestProfessional.prevExperience3,
+    recon_vwInvestProfessional.prevExperience3BegYear,
+    recon_vwInvestProfessional.prevExperience3EndYear,
+    recon_vwInvestProfessional.prevExperience3Title,
+    recon_vwInvestProfessional.prevExperience4,
+    recon_vwInvestProfessional.prevExperience4BegYear,
+    recon_vwInvestProfessional.prevExperience4EndYear,
+    recon_vwInvestProfessional.prevExperience4Title,
+    recon_vwInvestProfessional.prevExperience5,
+    recon_vwInvestProfessional.prevExperience5BegYear,
+    recon_vwInvestProfessional.prevExperience5EndYear,
+    recon_vwInvestProfessional.prevExperience5Title,
+    recon_vwInvestProfessional.prevExperience6,
+    recon_vwInvestProfessional.prevExperience6BegYear,
+    recon_vwInvestProfessional.prevExperience6EndYear,
+    recon_vwInvestProfessional.prevExperience6Title,
+    recon_vwInvestProfessional.bioLine1,
+    recon_vwInvestProfessional.bioLine2,
+    recon_vwInvestProfessional.bioLine3,
+    recon_vwInvestProfessional.bioLine4,
+    recon_vwInvestProfessional.bioLine5,
+    recon_vwInvestProfessional.association1,
+    recon_vwInvestProfessional.association2,
+    recon_vwInvestProfessional.association3,
+    recon_vwInvestProfessional.association4,
+    recon_vwInvestProfessional.association5,
+    recon_vwInvestProfessional.association6,
+    recon_vwInvestProfessional.designation1,
+    recon_vwInvestProfessional.designation2,
+    recon_vwInvestProfessional.designation2School,
+    recon_vwInvestProfessional.designation3,
+    recon_vwInvestProfessional.designation3School
+from /shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwInvestProfessional</attribute>
+  <attribute name="creationDate" type="LONG">1610487628491</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610491350050</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610487628491</attribute>
+</metadata>

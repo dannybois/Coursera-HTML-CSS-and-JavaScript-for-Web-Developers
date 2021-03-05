@@ -1,0 +1,41 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="ds_stream" path="/shared/ds_stream" type="DATA_SOURCE" subtype="RELATIONAL" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="authentication" type="STRING">BASIC</attribute>
+  <attribute name="commitOnFetchDone" type="BOOLEAN">false</attribute>
+  <attribute name="connPoolMaxSize" type="INTEGER">100</attribute>
+  <attribute name="connPoolMinSize" type="INTEGER">0</attribute>
+  <attribute name="connPoolTimeout" type="INTEGER">30</attribute>
+  <attribute name="connProperties" type="STRING">client-info=dvstudio</attribute>
+  <attribute name="connStaleTimeout" type="INTEGER">60</attribute>
+  <attribute name="creationDate" type="LONG">1612285504504</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="driverName" type="STRING">TIBCO Streaming</attribute>
+  <attribute name="ds.conn_checkout_timeout" type="INTEGER">45</attribute>
+  <attribute name="execTimeout" type="INTEGER">0</attribute>
+  <attribute name="isEnabled" type="BOOLEAN">true</attribute>
+  <attribute name="isPassThrough" type="STRING">Disabled</attribute>
+  <attribute name="jdbcds.comparisons_case_insensitive" type="BOOLEAN">false</attribute>
+  <attribute name="jdbcds.ignore_case_sensitivity_mismatch" type="BOOLEAN">false</attribute>
+  <attribute name="jdbcds.ignore_trailing_spaces_mismatch" type="BOOLEAN">false</attribute>
+  <attribute name="jdbcds.no_support_query_timeout" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.trailing_spaces_included_in_comparison" type="BOOLEAN">true</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1612285504504</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="login" type="STRING">empty</attribute>
+  <attribute name="name" type="STRING">ds_stream</attribute>
+  <attribute name="password" type="PASSWORD_STRING">ENC(X8FAZiL6nHgzigj0oZpgwg==$1Uu8d/r0UPtpg55tSIGO0g==)</attribute>
+  <attribute name="persistPassword" type="BOOLEAN">true</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1612285504504</attribute>
+  <attribute name="txnIsolationLevel" type="STRING">None</attribute>
+  <attribute name="type" type="STRING">RELATIONAL</attribute>
+  <attribute name="url" type="STRING">jdbc:streaming@http://172.23.5.145:10080</attribute>
+  <attribute name="urlPatternStr" type="STRING">jdbc:streaming@http://&lt;host&gt;:&lt;port&gt;</attribute>
+</metadata>

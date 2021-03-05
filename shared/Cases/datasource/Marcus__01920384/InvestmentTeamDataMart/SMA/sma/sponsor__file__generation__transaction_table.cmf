@@ -1,0 +1,225 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="sponsor_file_generation_transaction" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/SMA/sma/sponsor_file_generation_transaction" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="run_time" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="run_type" nullable="false">
+      <datatype name="varchar" extendedName="varchar(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="transaction_id" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="pkSponsorFileGenerationTransaction" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="run_time" sortOrder="ASCENDING"/>
+      <indexColumn name="run_type" sortOrder="ASCENDING"/>
+      <indexColumn name="transaction_id" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys>
+    <foreignKey name="fkSponsorFileGenerationTransactionSponsorType" primaryKeyName="pkSponsorType" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/SMA/sma/sponsor_type">
+      <foreignKeyColumn primaryColumnName="run_type" foreignColumnName="run_type"/>
+    </foreignKey>
+    <foreignKey name="fkSponsorFileGenerationTransactionTransactionAllocation" primaryKeyName="pkMuniTransaction" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/SMA/muni/transaction">
+      <foreignKeyColumn primaryColumnName="transaction_id" foreignColumnName="transaction_id"/>
+    </foreignKey>
+  </foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/SMA/muni/transaction" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="transaction_id" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="transaction_source">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="source_transaction_id">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="security_id">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="cusip">
+        <datatype type="STRING" maxLength="9"/>
+      </element>
+      <element name="broker_id">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="broker_name">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="broker_mp_id">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="transaction_status">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="rebook_flag">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="canceled_by">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="original_transaction_id">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="original_source_transaction_id">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="transaction_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="settle_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="transaction_type">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="transaction_currency">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="transaction_amount">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="4"/>
+      </element>
+      <element name="transaction_amount_local">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="transaction_price">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="3"/>
+      </element>
+      <element name="transaction_price_local">
+        <datatype type="DECIMAL" maxDigits="9" maxFractionalDigits="6"/>
+      </element>
+      <element name="trader_code">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="net_amount_local">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="implied_fee">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="5"/>
+      </element>
+      <element name="executed_yield">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="3"/>
+      </element>
+      <element name="coupon_rate">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="3"/>
+      </element>
+      <element name="accrued_income_local">
+        <datatype type="DECIMAL" maxDigits="12" maxFractionalDigits="2"/>
+      </element>
+      <element name="paydown_factor">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="8"/>
+      </element>
+      <element name="settlement_instructions">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="execution_fins">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="dtc_number">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="ticket_applied_original_date">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="ticket_applied_last_date">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="extended_value_plus_accrued">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="ticket_value_no_acc">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="ticket_commission_ext">
+        <datatype type="DECIMAL" maxDigits="13" maxFractionalDigits="2"/>
+      </element>
+      <element name="pricing_date">
+        <datatype type="DATE"/>
+      </element>
+      <element name="market_price">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="3"/>
+      </element>
+      <element name="prev_day_close_price">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="3"/>
+      </element>
+      <element name="bb_ultimate_id">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="trade_entered_by">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="trade_revision_note">
+        <datatype type="STRING" maxLength="500"/>
+      </element>
+      <element name="trade_revision_date">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="trade_revision_user">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="transaction_process_status">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="update_user">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="update_time">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="update_source">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="trade_rationale">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="insert_time">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="block_rationale">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="ticket_no">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/SMA/sma/sponsor_type" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="run_type" nullable="false">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1591019840253</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">251582</attribute>
+  <attribute name="creatorUserName" type="STRING">drao</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1591019840253</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">251582</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">drao</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1591019840253</attribute>
+</metadata>

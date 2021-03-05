@@ -1,0 +1,121 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="BI Data Distribution By Table Types" path="/shared/Cases/SAP BW/Hierarchy/ds_sapBEx1/Technical Content/Database Volume Statistics/BI Data Distribution By Table Types" type="TABLE" subtype="DATABASE_TABLE" changeToken="-4901274832605282234" tableType="NONE">
+  <annotation>&lt;![CDATA[Technical Name: 0TCT_MC25_Q0205]]&gt;</annotation>
+  <columns>
+    <column name="BI Table Type [Key]" nullable="true">
+      <datatype name="0TCTTABCAT" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BI Table Type" nullable="true">
+      <datatype name="0TCTTABCAT" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Number of Tables" nullable="true">
+      <datatype name="0TCTNOTAB" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="% Share" nullable="true">
+      <datatype name="" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DB Size(MB)" nullable="true">
+      <datatype name="0TCTDBSIZE" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Average DB Size(MB)" nullable="true">
+      <datatype name="7KU36MOUFNCF0RJJC8XMNV66R" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_BI Table Type [Key]" nullable="true">
+      <datatype name="0TCTTABCAT" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_BI Table Type" nullable="true">
+      <datatype name="0TCTTABCAT" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Selected BI System [Key]" nullable="true">
+      <datatype name="0P_SYSID" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Selected BI System" nullable="true">
+      <datatype name="0P_SYSID" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Current calendar week [Key]" nullable="true">
+      <datatype name="0CWEEK" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Current calendar week" nullable="true">
+      <datatype name="0CWEEK" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1610527760084</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="infoProvider" type="STRING">0TCT_MC25</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610527760084</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="nodeId" type="STRING">X000274</attribute>
+  <attribute name="nodeType" type="STRING">QU</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610527760084</attribute>
+  <attribute name="techName" type="STRING">0TCT_MC25_Q0205</attribute>
+</metadata>

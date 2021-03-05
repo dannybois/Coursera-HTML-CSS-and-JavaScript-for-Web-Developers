@@ -1,0 +1,121 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="Long-Term Trends in Total Runtimes of InfoProviders" path="/shared/Test/SAP/SAP BW BEx/POC/ds_sapBEx3/Technical Content/Front-End and OLAP Statistics (Aggregated)/Long-Term Trends in Total Runtimes of InfoProviders" type="TABLE" subtype="DATABASE_TABLE" changeToken="-3521062237059940258" tableType="NONE">
+  <annotation>&lt;![CDATA[Technical Name: 0TCT_MC01_Q0134]]&gt;</annotation>
+  <columns>
+    <column name="Key Figures [Key]" nullable="true">
+      <datatype name="63HNL0NI8L4JCEACR1LTNJ9AH" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Key Figures" nullable="true">
+      <datatype name="63HNL0NI8L4JCEACR1LTNJ9AH" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Key Figures [Key]" nullable="true">
+      <datatype name="63HNL0NI8L4JCEACR1LTNJ9AH" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Key Figures" nullable="true">
+      <datatype name="63HNL0NI8L4JCEACR1LTNJ9AH" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Selected BI System [Key]" nullable="true">
+      <datatype name="0P_SYSID" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Selected BI System" nullable="true">
+      <datatype name="0P_SYSID" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Current Calendar Day (SAP Exit) [Key]" nullable="true">
+      <datatype name="0DAT" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Current Calendar Day (SAP Exit)" nullable="true">
+      <datatype name="0DAT" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Current Workday (SAP Exit) [Key]" nullable="true">
+      <datatype name="0CWD" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Current Workday (SAP Exit)" nullable="true">
+      <datatype name="0CWD" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Selected InfoProvider Types [Key]" nullable="true">
+      <datatype name="0S_IFPRV" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Selected InfoProvider Types" nullable="true">
+      <datatype name="0S_IFPRV" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="creationDate" type="LONG">1610532372838</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="infoProvider" type="STRING">0TCT_MC01</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610532372838</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="nodeId" type="STRING">X000164</attribute>
+  <attribute name="nodeType" type="STRING">QU</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610532372838</attribute>
+  <attribute name="techName" type="STRING">0TCT_MC01_Q0134</attribute>
+</metadata>

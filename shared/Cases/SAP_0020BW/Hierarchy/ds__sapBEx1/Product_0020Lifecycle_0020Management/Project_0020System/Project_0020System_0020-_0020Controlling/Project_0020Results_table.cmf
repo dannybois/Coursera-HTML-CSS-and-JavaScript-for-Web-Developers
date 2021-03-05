@@ -1,0 +1,177 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="Project Results" path="/shared/Cases/SAP BW/Hierarchy/ds_sapBEx1/Product Lifecycle Management/Project System/Project System - Controlling/Project Results" type="TABLE" subtype="DATABASE_TABLE" changeToken="-4901274832605282234" tableType="NONE">
+  <annotation>&lt;![CDATA[Technical Name: 0PS_C04_Q0007]]&gt;</annotation>
+  <columns>
+    <column name="Fiscal year/period [Key]" nullable="true">
+      <datatype name="0FISCPER" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Fiscal year/period" nullable="true">
+      <datatype name="0FISCPER" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Accrued Revenues" nullable="true">
+      <datatype name="0AMOUNT" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Revenue in excess of billings" nullable="true">
+      <datatype name="0AMOUNT" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Revenue Surpluses" nullable="true">
+      <datatype name="0AMOUNT" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Reserves for Imminent Loss" nullable="true">
+      <datatype name="0AMOUNT" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Cost of Sales" nullable="true">
+      <datatype name="0AMOUNT" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Work in Process" nullable="true">
+      <datatype name="0AMOUNT" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Reserves" nullable="true">
+      <datatype name="0AMOUNT" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Fiscal year/period [Key]" nullable="true">
+      <datatype name="0FISCPER" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Fiscal year/period" nullable="true">
+      <datatype name="0FISCPER" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Project Definitions (Selection Options, optional) [Key]" nullable="true">
+      <datatype name="0S_PRJ" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Project Definitions (Selection Options, optional)" nullable="true">
+      <datatype name="0S_PRJ" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Fiscal Year/Period (Selection Options, Optional) [Key]" nullable="true">
+      <datatype name="0I_FY_OP" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Fiscal Year/Period (Selection Options, Optional)" nullable="true">
+      <datatype name="0I_FY_OP" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Results Analysis Version (Single Value Entry, Mandatory) [Key]" nullable="true">
+      <datatype name="0P_AVERS" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Results Analysis Version (Single Value Entry, Mandatory)" nullable="true">
+      <datatype name="0P_AVERS" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Fiscal year variant (SAP exit) [Key]" nullable="true">
+      <datatype name="0P_FVAEX" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Fiscal year variant (SAP exit)" nullable="true">
+      <datatype name="0P_FVAEX" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:18:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1610528006078</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="infoProvider" type="STRING">0PS_C04</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610528006078</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="nodeId" type="STRING">X000121</attribute>
+  <attribute name="nodeType" type="STRING">QU</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610528006078</attribute>
+  <attribute name="techName" type="STRING">0PS_C04_Q0007</attribute>
+</metadata>

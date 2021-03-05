@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="spRecallPublished_kpi" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/esg/spRecallPublished_kpi" type="PROCEDURE" subtype="DATABASE_PROCEDURE" changeToken="0">
+  <parameters></parameters>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1591019840081</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">251582</attribute>
+  <attribute name="creatorUserName" type="STRING">drao</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1594444468748</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">251582</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">fwright</attribute>
+  <attribute name="orgName" type="STRING">spRecallPublished_kpi;1</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1591019840081</attribute>
+</metadata>

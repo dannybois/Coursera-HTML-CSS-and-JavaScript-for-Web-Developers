@@ -1,0 +1,137 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="CategoryBucket" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/esga/CategoryBucket" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="categoryBucketId" nullable="false">
+      <datatype name="bigint identity" extendedName="bigint identity" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="categoryId" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="categoryBucketName" nullable="false">
+      <datatype name="nvarchar" extendedName="nvarchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="categoryBucketDesc" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(1000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1000"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertTime" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertBy" nullable="false">
+      <datatype name="nvarchar" extendedName="nvarchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="updateTime" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="updateBy" nullable="false">
+      <datatype name="nvarchar" extendedName="nvarchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="uc_CategoryBucket_categoryId_categoryBucketName" type="OTHER" unique="true">
+      <indexColumn name="categoryId" sortOrder="ASCENDING"/>
+      <indexColumn name="categoryBucketName" sortOrder="ASCENDING"/>
+    </index>
+    <index name="ix_CategoryBucket_categoryBucketName" type="OTHER" unique="false">
+      <indexColumn name="categoryBucketName" sortOrder="ASCENDING"/>
+    </index>
+    <index name="ix_CategoryBucket_categoryId" type="OTHER" unique="false">
+      <indexColumn name="categoryId" sortOrder="ASCENDING"/>
+    </index>
+    <index name="PK__Category__F00010FA0C0C04AC" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="categoryBucketId" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys>
+    <foreignKey name="fk_CategoryBucket_categoryId" primaryKeyName="PK__Category__23CAF1D82B1A6B86" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/esga/Category">
+      <foreignKeyColumn primaryColumnName="categoryId" foreignColumnName="categoryId"/>
+    </foreignKey>
+  </foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/esga/Category" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="categoryId" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="categoryTypeId" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="categoryName" nullable="false">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="categoryDesc">
+        <datatype type="STRING" maxLength="1000"/>
+      </element>
+      <element name="startDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="endDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="insertTime" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="insertBy" nullable="false">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="updateTime" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="updateBy" nullable="false">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1591019866394</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">251582</attribute>
+  <attribute name="creatorUserName" type="STRING">drao</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1594444468748</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">251582</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">fwright</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1591019866394</attribute>
+</metadata>

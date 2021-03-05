@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="Usage of BWA/Cache/DB by Queries" path="/shared/Cases/SAP BW/Hierarchy/ds_sapBEx1/Technical Content/Front-End and OLAP Statistics (Highly Aggregated)/&quot;Usage of BWA/Cache/DB by Queries&quot;" type="TABLE" subtype="DATABASE_TABLE" changeToken="-4901274832605282234" tableType="NONE">
+  <annotation>&lt;![CDATA[Technical Name: 0TCT_MCA1_Q0500]]&gt;</annotation>
+  <columns>
+    <column name="% of Query Executions on DB" nullable="true">
+      <datatype name="7MODTUOAGKW6IIFMDOET0RL2Z" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Count for BI ApplObj" nullable="true">
+      <datatype name="0TCTQUCOUNT" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="% of Query Executions on BWA" nullable="true">
+      <datatype name="7MODTUOAGKW6IIFM2E9F2W3QK" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="% of Query Executions on OLAP" nullable="true">
+      <datatype name="7MODTUOAGKW6IIFM98YADXSS0" subType="DATASOURCE_TYPE" type="STRING" maxLength="28"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Current Calendar Day (SAP Exit) [Key]" nullable="true">
+      <datatype name="0DAT" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Current Calendar Day (SAP Exit)" nullable="true">
+      <datatype name="0DAT" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1610528148449</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="infoProvider" type="STRING">0TCT_MCA1</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610528148449</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="nodeId" type="STRING">X000287</attribute>
+  <attribute name="nodeType" type="STRING">QU</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610528148449</attribute>
+  <attribute name="techName" type="STRING">0TCT_MCA1_Q0500</attribute>
+</metadata>

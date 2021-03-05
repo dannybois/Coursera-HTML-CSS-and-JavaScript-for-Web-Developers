@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="SelectAllPersons" path="/shared/Test/MS SQL Server/MFEC/ds_sqlServer16/tdv-supportdb/dbo/SelectAllPersons" type="PROCEDURE" subtype="DATABASE_PROCEDURE" changeToken="-4901274832605282192">
+  <parameters>
+    <parameter name="@City" direction="IN" nullable="false">
+      <datatype name="varchar" extendedName="int" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="Customized" type="STRING">name.changed;datatype.changed;direction.changed</attribute>
+      <attribute name="datatype.original" type="BYTE_ARRAY">EBkGAgADAGkAbgB0BgMAAwBpAG4AdAMrAAAADwMSAAABDAQH/////4AAAAAEBgAAAAB///////8=</attribute>
+      <attribute name="direction.original" type="BYTE">8</attribute>
+      <attribute name="name.original" type="STRING">@RETURN_VALUE</attribute>
+    </parameter>
+    <parameter name="@Address" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="Customized" type="STRING">name.changed</attribute>
+      <attribute name="name.original" type="STRING">@City</attribute>
+    </parameter>
+    <parameter name="@FirstName" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="Customized" type="STRING">name.changed</attribute>
+      <attribute name="name.original" type="STRING">@Address</attribute>
+    </parameter>
+    <parameter name="@FirstName" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1610470635248</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">true</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1611225780020</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="orgName" type="STRING">SelectAllPersons;1</attribute>
+  <attribute name="p:0:Customized" type="STRING">name.changed;datatype.changed;direction.changed</attribute>
+  <attribute name="p:0:datatype.original" type="BYTE_ARRAY">EBkGAgADAGkAbgB0BgMAAwBpAG4AdAMrAAAADwMSAAABDAQH/////4AAAAAEBgAAAAB///////8=</attribute>
+  <attribute name="p:0:direction.original" type="BYTE">8</attribute>
+  <attribute name="p:0:name.original" type="STRING">@RETURN_VALUE</attribute>
+  <attribute name="p:1:Customized" type="STRING">name.changed</attribute>
+  <attribute name="p:1:name.original" type="STRING">@City</attribute>
+  <attribute name="p:2:Customized" type="STRING">name.changed</attribute>
+  <attribute name="p:2:name.original" type="STRING">@Address</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610470635248</attribute>
+</metadata>

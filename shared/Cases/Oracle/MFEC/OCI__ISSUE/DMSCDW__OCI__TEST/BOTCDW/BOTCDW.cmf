@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="BOTCDW" path="/shared/Cases/Oracle/MFEC/OCI_ISSUE/DMSCDW_OCI_TEST/BOTCDW" type="CONTAINER" subtype="SCHEMA" changeToken="-4901274832605282203">
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <attribute name="autoAddChildren" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1610965358781</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">20549</attribute>
+  <attribute name="creatorUserName" type="STRING">mfecdev</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610965358781</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">20549</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mfecdev</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610965358781</attribute>
+</metadata>

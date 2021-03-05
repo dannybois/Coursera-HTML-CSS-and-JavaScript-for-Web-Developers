@@ -1,0 +1,201 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="Financial Key Figures: Overview" path="/shared/Test/SAP/SAP BW BEx/POC/ds_sapBEx3/Financial Management &amp; Controlling/Financial Accounting/General Ledger Accounting/General Ledger Accounting (New)/&quot;G/L (New): Balance Sheet and Profit and Loss&quot;/Financial Key Figures: Overview" type="TABLE" subtype="DATABASE_TABLE" changeToken="-3521062237059940258" tableType="NONE">
+  <annotation>&lt;![CDATA[Technical Name: 0FIGL_V10_Q0002]]&gt;</annotation>
+  <columns>
+    <column name="Structure [Key]" nullable="true">
+      <datatype name="0USD765K4FZE3528TURNLA3E2" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Structure" nullable="true">
+      <datatype name="0USD765K4FZE3528TURNLA3E2" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Actuals [Key]" nullable="true">
+      <datatype name="" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Actuals" nullable="true">
+      <datatype name="" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Structure [Key]" nullable="true">
+      <datatype name="0USD765K4FZE3528TURNLA3E2" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_Structure" nullable="true">
+      <datatype name="0USD765K4FZE3528TURNLA3E2" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Revenue [Key]" nullable="true">
+      <datatype name="0S_REVEN" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Revenue" nullable="true">
+      <datatype name="0S_REVEN" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Operating Expenses [Key]" nullable="true">
+      <datatype name="0S_OPE" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Operating Expenses" nullable="true">
+      <datatype name="0S_OPE" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Costs of Goods Sold [Key]" nullable="true">
+      <datatype name="0S_COG" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Costs of Goods Sold" nullable="true">
+      <datatype name="0S_COG" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Company Code (Single Value Entry, Required) [Key]" nullable="true">
+      <datatype name="0P_COCD" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Company Code (Single Value Entry, Required)" nullable="true">
+      <datatype name="0P_COCD" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Inventories [Key]" nullable="true">
+      <datatype name="0S_INVE" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Inventories" nullable="true">
+      <datatype name="0S_INVE" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Total Assets [Key]" nullable="true">
+      <datatype name="0S_OTH" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Total Assets" nullable="true">
+      <datatype name="0S_OTH" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Currency Type (Single-Value Entry, Mandatory) [Key]" nullable="true">
+      <datatype name="0P_CURRT" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Currency Type (Single-Value Entry, Mandatory)" nullable="true">
+      <datatype name="0P_CURRT" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Net Receivables [Key]" nullable="true">
+      <datatype name="0S_RECE" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="_*Net Receivables" nullable="true">
+      <datatype name="0S_RECE" subType="DATASOURCE_TYPE" type="STRING" maxLength="70"/>
+      <attribute name="mandatory" type="BOOLEAN">true</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:18:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:19:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:20:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:21:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">true</attribute>
+  <attribute name="creationDate" type="LONG">1610532221970</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="infoProvider" type="STRING">0FIGL_V10</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610532221970</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="nodeId" type="STRING">X000063</attribute>
+  <attribute name="nodeType" type="STRING">QU</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610532221970</attribute>
+  <attribute name="techName" type="STRING">0FIGL_V10_Q0002</attribute>
+</metadata>

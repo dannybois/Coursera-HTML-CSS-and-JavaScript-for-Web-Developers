@@ -1,0 +1,2242 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="recon_vwEntity_Limited" path="/shared/Cases/datasource/Marcus_01920384/recon_vwEntity_Limited" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="reconStatus" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconSource" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="viewName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconDifferences" nullable="true">
+      <datatype type="STRING" maxLength="3342"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="entityCode" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="name" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="paceEntityId" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="paceEntityType" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="entityType" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="baseCurrency" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="billingCurrency" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="inceptionDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="inceptionValue" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="openDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="terminationDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="terminationValue" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="manager" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="parentEntityId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="stateCode" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="taxCountry" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="portfolioType" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="shareClass" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="type" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="subType" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="productCompany" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="productVehicle" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="assetClass" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="style" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="investmentCompany" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="investmentGroup" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="investmentType" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="separateAccountType" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="clientServiceGroup" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="investmentSector" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="investmentSegment" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="portfolioDuration" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="management" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketExposure" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="economicRegion" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="subGroup" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketingGroup" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="legalName" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="longName" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reportingName" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="familyName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="erisa" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fiscalEndDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketingOpenDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="contractDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="backofficeProvider" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="custodian" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="preferredDailyHoldingsSource" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="preferredMonthendHoldingsSource" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="preferredDailyNavSource" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="preferredMonthendNavSource" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="preferredPerformanceSource" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="subAdvised" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="taxStatus" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="voteProxy" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfnFlag" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="costMethod" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="lotSelectionMethod" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="discretionary" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reportedStatus" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="contractualSettlementType" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="gainLossOnPaydowns" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="originator" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="status" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reportingBasis" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="universalId" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="bankAccountNumber" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="taxId" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ibor" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="evFundId" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fundTicker" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fundCusip" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="clientType" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="classId" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="seriesId" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="altPerfInceptionDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="afterTaxPerfInceptionDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="noPerformanceBeforeDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="grossExpenseRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="netExpenseRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="minimumInvestment" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="accrualType" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="accrualFrequency" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpDistributionType" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpTaxableIncomeFlag" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpSplitRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpSpreadMethod" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpSpreadCalendar" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpOpenClosedFlag" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpSynParentId" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpSynInceptionDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpConvParentId" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpConvFrequency" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpConvPeriod" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpFixedConvDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpExpRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpAnnExpWaiver" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfpGrAccrual" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfp12b1Fee" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="deferredSalesCharge" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reportingInceptionDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="frontEndLoad" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cdscLoadYear1" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cdscLoadYear2" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cdscLoadYear3" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cdscLoadYear4" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cdscLoadYear5" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cdscLoadYear6" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cdscLoadYear7" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cdscLoadYear8" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cdscLoadYear9" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="cdscLoadYear10" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="primaryReturnType" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fundAccountId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketingFundType" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="distributionFreq" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="marketingDistributionFreq" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="registeredFlag" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="billingCycle" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fullyFundedDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="terminationDateBilling" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sharesHeldTracking" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fidelityBond" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="crdFlag" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="collineFlag" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="institutionalReturnsFlag" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ladderManagerFlag" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="riskGroupFlag" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="QIB" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="tabsReportingType" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="shadowAccount" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="origAccountNumber" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sponsor" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sponsorType" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sponsorSubType" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="subadvisor" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="platform" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="qcReset" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="foxFundType" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="aplDuration" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="aplCust7" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="aplFundType" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="aplObject" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="aplOldAcctNumber" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="aplSource" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="aplVehicle" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="targetState" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="targetStatePct" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="smaManager" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rrCode" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sppId" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="workFlowId" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregSponsor" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregRRCode" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregPlatform" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregDTCBIG" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregFundType" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregTermDate" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregPortDuration" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregSubadvisor" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregFrom" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregTo" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="superStrategy" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="geoMandate" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sapId" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="confidentialityInd" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="billingInvoiceInd" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="strategy" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregShortName" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregInceptionDate" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregContractType" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregStrategy" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregGeoMandate" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregTaxStatus" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregInceptionValue" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="feeCalcCurrency" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="billingDayExtract" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="billingCashFlowInd" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="billingMarketValueRule" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reregSameday" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="secondaryBankAcctNumber" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="smaGroup" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="leiNumber" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="finraIndicator" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="planNumber" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="planSponsorName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="planSponsorTaxId" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="aumInclude" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="holdsPositions" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="taxManaged" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="financeFlag" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="administrator" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="schwabCompositeCode" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="calvertScreenInvGroup" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="amortizationMethod" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="monthYearDurationFlag" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="transferAgentFundId" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="territory" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="taxLossHarvesting" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="contractType" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="contract" nullable="true">
+      <datatype type="STRING" maxLength="6"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="minimumMaturity" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="maximumMaturity" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="maturityType" nullable="true">
+      <datatype type="STRING" maxLength="15"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="minimumRating" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="matTurnoverOptionTransferred" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="matTurnoverOptionPurchased" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fundType" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="billingInceptionDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="billingStartDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="billingEndDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="gipsFlag" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="dailyMVFlag" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fundedFlag" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwEntity_limited" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="reconStatus">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconSource">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="viewName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="reconDifferences">
+        <datatype type="STRING" maxLength="3342"/>
+      </element>
+      <element name="entityCode">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="name">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="paceEntityId">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="paceEntityType">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="entityType">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="baseCurrency">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="billingCurrency">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="inceptionDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="inceptionValue">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="openDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="terminationDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="terminationValue">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="manager">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="parentEntityId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="stateCode">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="taxCountry">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="portfolioType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="shareClass">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="type">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="subType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="productCompany">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="productVehicle">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="assetClass">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="style">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="investmentCompany">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="investmentGroup">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="investmentType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="separateAccountType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="clientServiceGroup">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="investmentSector">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="investmentSegment">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="portfolioDuration">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="management">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="marketExposure">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="economicRegion">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="subGroup">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="marketingGroup">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="legalName">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="longName">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="reportingName">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="familyName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="erisa">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="fiscalEndDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="marketingOpenDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="contractDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="backofficeProvider">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="custodian">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="preferredDailyHoldingsSource">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="preferredMonthendHoldingsSource">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="preferredDailyNavSource">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="preferredMonthendNavSource">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="preferredPerformanceSource">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="subAdvised">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="taxStatus">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="voteProxy">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfnFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="costMethod">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="lotSelectionMethod">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="discretionary">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="reportedStatus">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="contractualSettlementType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="gainLossOnPaydowns">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="originator">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="status">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="reportingBasis">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="universalId">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="bankAccountNumber">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="taxId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="ibor">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="evFundId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="fundTicker">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="fundCusip">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="clientType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="classId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="seriesId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="altPerfInceptionDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="afterTaxPerfInceptionDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="noPerformanceBeforeDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="grossExpenseRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="netExpenseRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="minimumInvestment">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="accrualType">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="accrualFrequency">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="mfpDistributionType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpTaxableIncomeFlag">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpSplitRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="mfpSpreadMethod">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpSpreadCalendar">
+        <datatype type="DECIMAL" maxDigits="38" maxFractionalDigits="0"/>
+      </element>
+      <element name="mfpOpenClosedFlag">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpSynParentId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpSynInceptionDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="mfpConvParentId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpConvFrequency">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfpConvPeriod">
+        <datatype type="DECIMAL" maxDigits="38" maxFractionalDigits="0"/>
+      </element>
+      <element name="mfpFixedConvDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="mfpExpRatio">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="mfpAnnExpWaiver">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="mfpGrAccrual">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfp12b1Fee">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="deferredSalesCharge">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="reportingInceptionDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="frontEndLoad">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear1">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear2">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear3">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear4">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear5">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear6">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear7">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear8">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear9">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="cdscLoadYear10">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="primaryReturnType">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="fundAccountId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="marketingFundType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="distributionFreq">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="marketingDistributionFreq">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="registeredFlag">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="billingCycle">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="fullyFundedDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="terminationDateBilling">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="sharesHeldTracking">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="fidelityBond">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="crdFlag">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="collineFlag">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="institutionalReturnsFlag">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="ladderManagerFlag">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="riskGroupFlag">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="QIB">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="tabsReportingType">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="shadowAccount">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="origAccountNumber">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="sponsor">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="sponsorType">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="sponsorSubType">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="subadvisor">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="platform">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="qcReset">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="foxFundType">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="aplDuration">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="aplCust7">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="aplFundType">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="aplObject">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="aplOldAcctNumber">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="aplSource">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="aplVehicle">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="targetState">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="targetStatePct">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="smaManager">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="rrCode">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="sppId">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="workFlowId">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="reregSponsor">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregRRCode">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregPlatform">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregDTCBIG">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregFundType">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregTermDate">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregPortDuration">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregSubadvisor">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregFrom">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="reregTo">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="reregDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="superStrategy">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="geoMandate">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="sapId">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="confidentialityInd">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="billingInvoiceInd">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="strategy">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="reregShortName">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregInceptionDate">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregContractType">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregStrategy">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregGeoMandate">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregTaxStatus">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="reregInceptionValue">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="feeCalcCurrency">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="billingDayExtract">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="billingCashFlowInd">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="billingMarketValueRule">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reregSameday">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="secondaryBankAcctNumber">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="smaGroup">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="leiNumber">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="finraIndicator">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="planNumber">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="planSponsorName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="planSponsorTaxId">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="aumInclude">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="holdsPositions">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="taxManaged">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="financeFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="administrator">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="schwabCompositeCode">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="calvertScreenInvGroup">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="amortizationMethod">
+        <datatype type="STRING" maxLength="5"/>
+      </element>
+      <element name="monthYearDurationFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="transferAgentFundId">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="territory">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="taxLossHarvesting">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="contractType">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="contract">
+        <datatype type="STRING" maxLength="6"/>
+      </element>
+      <element name="minimumMaturity">
+        <datatype type="INTEGER" minValue="0" maxValue="255"/>
+      </element>
+      <element name="maximumMaturity">
+        <datatype type="INTEGER" minValue="0" maxValue="255"/>
+      </element>
+      <element name="maturityType">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="minimumRating">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="matTurnoverOptionTransferred">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="matTurnoverOptionPurchased">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="fundType">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="billingInceptionDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="billingStartDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="billingEndDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="gipsFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="dailyMVFlag">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="fundedFlag">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    reconStatus,
+    reconSource,
+    viewName,
+    reconId,
+    reconDifferences,
+    entityCode,
+    name,
+    paceEntityId,
+    paceEntityType,
+    entityType,
+    baseCurrency,
+    billingCurrency,
+    inceptionDate,
+    inceptionValue,
+    openDate,
+    terminationDate,
+    terminationValue,
+    manager,
+    parentEntityId,
+    stateCode,
+    taxCountry,
+    portfolioType,
+    shareClass,
+    &quot;type&quot;,
+    subType,
+    productCompany,
+    productVehicle,
+    assetClass,
+    style,
+    investmentCompany,
+    investmentGroup,
+    investmentType,
+    separateAccountType,
+    clientServiceGroup,
+    investmentSector,
+    investmentSegment,
+    portfolioDuration,
+    management,
+    marketExposure,
+    economicRegion,
+    subGroup,
+    marketingGroup,
+    legalName,
+    longName,
+    reportingName,
+    familyName,
+    erisa,
+    fiscalEndDate,
+    marketingOpenDate,
+    contractDate,
+    backofficeProvider,
+    custodian,
+    preferredDailyHoldingsSource,
+    preferredMonthendHoldingsSource,
+    preferredDailyNavSource,
+    preferredMonthendNavSource,
+    preferredPerformanceSource,
+    subAdvised,
+    taxStatus,
+    voteProxy,
+    mfnFlag,
+    costMethod,
+    lotSelectionMethod,
+    discretionary,
+    reportedStatus,
+    contractualSettlementType,
+    gainLossOnPaydowns,
+    originator,
+    status,
+    reportingBasis,
+    universalId,
+    bankAccountNumber,
+    taxId,
+    ibor,
+    evFundId,
+    fundTicker,
+    fundCusip,
+    clientType,
+    classId,
+    seriesId,
+    altPerfInceptionDate,
+    afterTaxPerfInceptionDate,
+    noPerformanceBeforeDate,
+    grossExpenseRatio,
+    netExpenseRatio,
+    minimumInvestment,
+    accrualType,
+    accrualFrequency,
+    mfpDistributionType,
+    mfpTaxableIncomeFlag,
+    mfpSplitRatio,
+    mfpSpreadMethod,
+    mfpSpreadCalendar,
+    mfpOpenClosedFlag,
+    mfpSynParentId,
+    mfpSynInceptionDate,
+    mfpConvParentId,
+    mfpConvFrequency,
+    mfpConvPeriod,
+    mfpFixedConvDate,
+    mfpExpRatio,
+    mfpAnnExpWaiver,
+    mfpGrAccrual,
+    mfp12b1Fee,
+    deferredSalesCharge,
+    reportingInceptionDate,
+    frontEndLoad,
+    cdscLoadYear1,
+    cdscLoadYear2,
+    cdscLoadYear3,
+    cdscLoadYear4,
+    cdscLoadYear5,
+    cdscLoadYear6,
+    cdscLoadYear7,
+    cdscLoadYear8,
+    cdscLoadYear9,
+    cdscLoadYear10,
+    primaryReturnType,
+    fundAccountId,
+    marketingFundType,
+    distributionFreq,
+    marketingDistributionFreq,
+    registeredFlag,
+    billingCycle,
+    fullyFundedDate,
+    terminationDateBilling,
+    sharesHeldTracking,
+    fidelityBond,
+    crdFlag,
+    collineFlag,
+    institutionalReturnsFlag,
+    ladderManagerFlag,
+    riskGroupFlag,
+    QIB,
+    tabsReportingType,
+    shadowAccount,
+    origAccountNumber,
+    sponsor,
+    sponsorType,
+    sponsorSubType,
+    subadvisor,
+    platform,
+    qcReset,
+    foxFundType,
+    aplDuration,
+    aplCust7,
+    aplFundType,
+    aplObject,
+    aplOldAcctNumber,
+    aplSource,
+    aplVehicle,
+    targetState,
+    targetStatePct,
+    smaManager,
+    rrCode,
+    sppId,
+    workFlowId,
+    reregSponsor,
+    reregRRCode,
+    reregPlatform,
+    reregDTCBIG,
+    reregFundType,
+    reregTermDate,
+    reregPortDuration,
+    reregSubadvisor,
+    reregFrom,
+    reregTo,
+    reregDate,
+    superStrategy,
+    geoMandate,
+    sapId,
+    confidentialityInd,
+    billingInvoiceInd,
+    strategy,
+    reregShortName,
+    reregInceptionDate,
+    reregContractType,
+    reregStrategy,
+    reregGeoMandate,
+    reregTaxStatus,
+    reregInceptionValue,
+    feeCalcCurrency,
+    billingDayExtract,
+    billingCashFlowInd,
+    billingMarketValueRule,
+    reregSameday,
+    secondaryBankAcctNumber,
+    smaGroup,
+    leiNumber,
+    finraIndicator,
+    planNumber,
+    planSponsorName,
+    planSponsorTaxId,
+    aumInclude,
+    holdsPositions,
+    taxManaged,
+    financeFlag,
+    administrator,
+    schwabCompositeCode,
+    calvertScreenInvGroup,
+    amortizationMethod,
+    monthYearDurationFlag,
+    transferAgentFundId,
+    territory,
+    taxLossHarvesting,
+    contractType,
+    contract,
+    minimumMaturity,
+    maximumMaturity,
+    maturityType,
+    minimumRating,
+    matTurnoverOptionTransferred,
+    matTurnoverOptionPurchased,
+    fundType,
+    billingInceptionDate,
+    billingStartDate,
+    billingEndDate,
+    gipsFlag,
+    dailyMVFlag,
+    fundedFlag
+from /shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwEntity_limited</attribute>
+  <attribute name="cacheBucketCatalog" type="STRING">DataShipDB</attribute>
+  <attribute name="cacheBucketMode" type="STRING">AUTO_GEN</attribute>
+  <attribute name="cacheBucketPrefix" type="STRING">ReconVwEntity_</attribute>
+  <attribute name="cacheBucketSchema" type="STRING">dbo</attribute>
+  <attribute name="cacheDeltaLoader" type="NULL"/>
+  <attribute name="cacheDropCreateIdx" type="BOOLEAN">true</attribute>
+  <attribute name="cacheIncremental" type="BOOLEAN">false</attribute>
+  <attribute name="cacheLastTracking" type="STRING">/shared/EnterpriseDatabase/Physical/Metadata/InvestmentTeamDataMart/InvCache/dbo/TDVcachetracking</attribute>
+  <attribute name="cacheNumBuckets" type="INTEGER">3</attribute>
+  <attribute name="cachePostRefreshCallback" type="NULL"/>
+  <attribute name="cachePreRefreshCallback" type="NULL"/>
+  <attribute name="cachePullBasedIncremental" type="BOOLEAN">false</attribute>
+  <attribute name="cacheRefreshMode" type="STRING">SCHEDULED</attribute>
+  <attribute name="cacheSnapshotLoader" type="NULL"/>
+  <attribute name="creationDate" type="LONG">1610486749335</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610652282665</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610486749335</attribute>
+</metadata>

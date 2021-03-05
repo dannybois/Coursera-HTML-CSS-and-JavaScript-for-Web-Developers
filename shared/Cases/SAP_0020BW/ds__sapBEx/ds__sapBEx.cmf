@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="ds_sapBEx" path="/shared/Cases/SAP BW/ds_sapBEx" type="DATA_SOURCE" subtype="NONE" changeToken="-4901274832605282245">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="appServer" type="STRING">172.23.7.225</attribute>
+  <attribute name="client" type="STRING">100</attribute>
+  <attribute name="creationDate" type="LONG">1610526727217</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="displayAndUseTechName" type="BOOLEAN">false</attribute>
+  <attribute name="displayDescriptiveName" type="BOOLEAN">true</attribute>
+  <attribute name="displayTechName" type="BOOLEAN">false</attribute>
+  <attribute name="driverName" type="STRING">SAP BW BEx</attribute>
+  <attribute name="idleConnections" type="STRING">5</attribute>
+  <attribute name="isPassThrough" type="STRING">Disabled</attribute>
+  <attribute name="language" type="STRING">EN</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610526727217</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="maxCells" type="STRING">500000</attribute>
+  <attribute name="maxConnections" type="STRING">25</attribute>
+  <attribute name="name" type="STRING">ds_sapBEx</attribute>
+  <attribute name="password" type="PASSWORD_STRING">ENC(PzTRA9JpXjCMdLWE2oJxtQ==$aKTcKnaBTg0FkT0zGDr+mA==)</attribute>
+  <attribute name="persistPassword" type="BOOLEAN">true</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610526727217</attribute>
+  <attribute name="systemNumber" type="STRING">00</attribute>
+  <attribute name="type" type="STRING">sapbwbex</attribute>
+  <attribute name="username" type="STRING">ddic</attribute>
+</metadata>

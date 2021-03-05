@@ -1,0 +1,221 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="security_rating_changes" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/SMA/muni/security_rating_changes" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="effective_date" nullable="false">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="security_id" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_moody" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_mdy_lt_undl" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_mdy_lt_enhanced" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_mdy_st_enhanced" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_sp" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_sp_underlying" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_sp_long" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_sp_shrt" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_fitch" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_fitch_undl" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_fitch_long" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_fitch_shrt" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="other_rating" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="update_user" nullable="false">
+      <datatype name="varchar" extendedName="varchar(30)" subType="DATASOURCE_TYPE" type="STRING" maxLength="30"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="update_time" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_mdy_lt_undl_watch" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_mdy_lt_enhanced_watch" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_mdy_st_enhanced_watch" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_sp_watch" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_fitch_watch" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_moody_watch" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="rtg_mdy_st_undl" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="pkSecurityRatingChanges" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="effective_date" sortOrder="DESCENDING"/>
+      <indexColumn name="security_id" sortOrder="ASCENDING"/>
+    </index>
+    <index name="NonClusteredIndex_security_id" type="OTHER" unique="false">
+      <indexColumn name="security_id" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:18:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:19:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:20:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:21:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:22:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:23:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1591019772594</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">251582</attribute>
+  <attribute name="creatorUserName" type="STRING">drao</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1591019772594</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">251582</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">drao</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1591019772594</attribute>
+</metadata>

@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="CARDINALITY_TEST" path="/shared/Test/Oracle/Oracle19c_thin/ds_oracle19c/NATHAN1/CARDINALITY_TEST" type="TABLE" subtype="DATABASE_TABLE" changeToken="-4901274832605282214" tableType="TABLE">
+  <columns>
+    <column name="COL1" nullable="true">
+      <datatype name="BIGINT" extendedName="NUMBER(16,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-9999999999999999" maxValue="9999999999999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COL2_ID" nullable="true">
+      <datatype name="INTEGER" extendedName="NUMBER(8,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-99999999" maxValue="99999999"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COL2" nullable="true">
+      <datatype name="DATE" extendedName="DATE" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1610628382874</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610628382874</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610628382874</attribute>
+</metadata>

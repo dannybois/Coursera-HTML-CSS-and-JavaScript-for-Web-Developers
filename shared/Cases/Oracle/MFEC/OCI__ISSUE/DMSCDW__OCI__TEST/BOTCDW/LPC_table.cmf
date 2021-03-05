@@ -1,0 +1,221 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="LPC" path="/shared/Cases/Oracle/MFEC/OCI_ISSUE/DMSCDW_OCI_TEST/BOTCDW/LPC" type="TABLE" subtype="DATABASE_TABLE" changeToken="-4901274832605282203" tableType="TABLE">
+  <columns>
+    <column name="ORG_UNQ_ID" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ORG_UNQ_TP_ID" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ORG_IP_ID" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(19,0)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="19" maxFractionalDigits="0"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DS_DT" nullable="true">
+      <datatype name="DATE" extendedName="DATE" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DS_DT_TP" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LND_CO_ID" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LND_CO_ID_TP" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CST_ID" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CST_ID_TP" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CST_AGE" nullable="true">
+      <datatype name="TINYINT" extendedName="NUMBER(0,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="0" maxValue="0"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="OCP_TP_ID" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BRW_INCM" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(20,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="OTHR_DBT_BURDN" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(20,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="AR_NO" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(400)" subType="DATASOURCE_TYPE" type="STRING" maxLength="400"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOAN_TP" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOAN_ORIG_F" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="AR_PPS_CODE" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EFF_INT_RATE" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(8,5)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="8" maxFractionalDigits="5"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CTR_AMT" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(20,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CLT_VAL_AMT" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(20,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="REPYMT_AMT" nullable="true">
+      <datatype name="NUMBER" extendedName="NUMBER(20,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" maxFractionalDigits="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="REPYMT_PRD" nullable="true">
+      <datatype name="TINYINT" extendedName="NUMBER(0,0)" subType="DATASOURCE_TYPE" type="INTEGER" minValue="0" maxValue="0"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PPN_TM" nullable="true">
+      <datatype name="DATE" extendedName="DATE" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="REFR_NO" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(14)" subType="DATASOURCE_TYPE" type="STRING" maxLength="14"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="LPC_IDX" type="OTHER" unique="false">
+      <indexColumn name="ORG_UNQ_ID" sortOrder="ASCENDING"/>
+      <indexColumn name="ORG_UNQ_TP_ID" sortOrder="ASCENDING"/>
+      <indexColumn name="DS_DT" sortOrder="ASCENDING"/>
+      <indexColumn name="DS_DT_TP" sortOrder="ASCENDING"/>
+      <attribute name="indexSchema" type="STRING">BOTCDW</attribute>
+    </index>
+  </indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:18:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:19:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:20:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:21:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:22:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:23:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1610965361081</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">20549</attribute>
+  <attribute name="creatorUserName" type="STRING">mfecdev</attribute>
+  <attribute name="i:0:indexSchema" type="STRING">BOTCDW</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610965361081</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">20549</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mfecdev</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610965361081</attribute>
+</metadata>

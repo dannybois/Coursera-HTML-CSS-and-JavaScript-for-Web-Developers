@@ -1,0 +1,200 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="productRelationship" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/productRelationship" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="productId" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="entityId" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="relationshipType" nullable="false">
+      <datatype name="varchar" extendedName="varchar(30)" subType="DATASOURCE_TYPE" type="STRING" maxLength="30"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sequence" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="beginDate" nullable="false">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="endDate" nullable="false">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertDate" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertSource" nullable="false">
+      <datatype name="varchar" extendedName="varchar(25)" subType="DATASOURCE_TYPE" type="STRING" maxLength="25"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="updateDate" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="updateSource" nullable="false">
+      <datatype name="varchar" extendedName="varchar(25)" subType="DATASOURCE_TYPE" type="STRING" maxLength="25"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="pkProductRelationship" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="productId" sortOrder="ASCENDING"/>
+      <indexColumn name="entityId" sortOrder="ASCENDING"/>
+      <indexColumn name="beginDate" sortOrder="ASCENDING"/>
+      <indexColumn name="endDate" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys>
+    <foreignKey name="fkPrProductId" primaryKeyName="pkProduct" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/product">
+      <foreignKeyColumn primaryColumnName="productId" foreignColumnName="productId"/>
+    </foreignKey>
+  </foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/product" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="productId" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="name" nullable="false">
+        <datatype type="STRING" maxLength="500"/>
+      </element>
+      <element name="productType" nullable="false">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="productSubType" nullable="false">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="objective">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="selectionCriteria">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="channel">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="assetType">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="marketCap">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="geographicRegion">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="sector">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="quality">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="duration">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="ladderRange">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="stateType">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="state">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="subAdvised">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="fundOfFunds">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="discretionary">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="nextShares">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="evic">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="taxManaged">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="esg">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="turnover">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="insertDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="insertSource" nullable="false">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="updateDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="updateSource" nullable="false">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1600884228783</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1600884228783</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1600884228783</attribute>
+</metadata>

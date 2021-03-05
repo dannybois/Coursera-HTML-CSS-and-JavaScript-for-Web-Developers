@@ -1,0 +1,170 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="EnvironmentalFinanceSecurity" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/calvert/EnvironmentalFinanceSecurity" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="environmentalFinanceSecurityId" nullable="false">
+      <datatype name="bigint identity" extendedName="bigint identity" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="environmentalFinanceId" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="identifierType" nullable="false">
+      <datatype name="varchar" extendedName="varchar(5)" subType="DATASOURCE_TYPE" type="STRING" maxLength="5"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="identifierValue" nullable="false">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="securityId" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertTime" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertBy" nullable="false">
+      <datatype name="varchar" extendedName="varchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="uc_EnvironmentalFinance_SecurityId" type="OTHER" unique="true">
+      <indexColumn name="environmentalFinanceId" sortOrder="ASCENDING"/>
+      <indexColumn name="identifierType" sortOrder="ASCENDING"/>
+      <indexColumn name="identifierValue" sortOrder="ASCENDING"/>
+      <indexColumn name="securityId" sortOrder="ASCENDING"/>
+    </index>
+    <index name="ix_EnvironmentalFinanceSecurity_environmentalFinanceId" type="OTHER" unique="false">
+      <indexColumn name="environmentalFinanceId" sortOrder="ASCENDING"/>
+    </index>
+    <index name="ix_EnvironmentalFinanceSecurity_securityId" type="OTHER" unique="false">
+      <indexColumn name="securityId" sortOrder="ASCENDING"/>
+    </index>
+    <index name="PK__Environm__AE0521A2FB879C76" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="environmentalFinanceSecurityId" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys>
+    <foreignKey name="fk_EnvironmentalFinanceSecurity_environmentalFinanceId" primaryKeyName="PK__Environm__0861EA1A9EDC8575" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/calvert/EnvironmentalFinance">
+      <foreignKeyColumn primaryColumnName="environmentalFinanceId" foreignColumnName="environmentalFinanceId"/>
+    </foreignKey>
+  </foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/calvert/EnvironmentalFinance" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="environmentalFinanceId" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="effectiveDate" nullable="false">
+        <datatype type="DATE"/>
+      </element>
+      <element name="issuerName" nullable="false">
+        <datatype type="STRING" maxLength="256"/>
+      </element>
+      <element name="value" nullable="false">
+        <datatype type="DECIMAL" maxDigits="24" minFractionalDigits="4" maxFractionalDigits="4"/>
+      </element>
+      <element name="currency" nullable="false">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="valueUsd" nullable="false">
+        <datatype type="DECIMAL" maxDigits="24" minFractionalDigits="4" maxFractionalDigits="4"/>
+      </element>
+      <element name="issuerType">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="country" nullable="false">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="standard">
+        <datatype type="STRING" maxLength="300"/>
+      </element>
+      <element name="category" nullable="false">
+        <datatype type="STRING" maxLength="300"/>
+      </element>
+      <element name="pricingDt">
+        <datatype type="DATE"/>
+      </element>
+      <element name="settlementDt">
+        <datatype type="DATE"/>
+      </element>
+      <element name="maturityDt">
+        <datatype type="STRING" maxLength="300"/>
+      </element>
+      <element name="tenor">
+        <datatype type="STRING" maxLength="300"/>
+      </element>
+      <element name="isin">
+        <datatype type="STRING" maxLength="1000"/>
+      </element>
+      <element name="cusip">
+        <datatype type="STRING" maxLength="1000"/>
+      </element>
+      <element name="useOfProceeds">
+        <datatype type="STRING" maxLength="1000"/>
+      </element>
+      <element name="susDevGoals">
+        <datatype type="STRING" maxLength="1000"/>
+      </element>
+      <element name="leadManagers">
+        <datatype type="STRING" maxLength="1000"/>
+      </element>
+      <element name="insertTime" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="insertBy" nullable="false">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="updateTime" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="updateBy" nullable="false">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1591019686856</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">251582</attribute>
+  <attribute name="creatorUserName" type="STRING">drao</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1594444468748</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">251582</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">fwright</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1591019686856</attribute>
+</metadata>

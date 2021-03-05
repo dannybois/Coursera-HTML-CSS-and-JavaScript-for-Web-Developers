@@ -1,0 +1,408 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="recon_vwIssuerMaster" path="/shared/Cases/datasource/Marcus_01920384/recon_vwIssuerMaster" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="reconStatus" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconSource" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="viewName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconDifferences" nullable="true">
+      <datatype type="STRING" maxLength="555"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="issuerId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="idBBCompany" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="idBBParentCo" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="idBBUltimateParentCo" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="issuerName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="issuerLegalName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="address" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="countryIncorporation" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="countryDomicile" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="countryExposure" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="companyCorpTicker" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="idReplacementIdentifier" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="globalCompanyId" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="globalObligorId" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="globalParentId" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="globalUltimateParentId" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="gicsSubIndustryCode" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="industrySubgrpNo" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="acquiredByParent" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="companyIsPrivate" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="companyToParentRelationship" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="companyWebAddress" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="issuerNameTypes" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="lei" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="leiAssignedDt" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="leiLastUpdate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="leiLegalForm" nullable="true">
+      <datatype type="STRING" maxLength="256"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="leiRegistrationAddress" nullable="true">
+      <datatype type="STRING" maxLength="256"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="leiStatus" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="obligIndustrySubgroup" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="obligorBbid" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="state" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="stateOfDomicile" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwIssuerMaster" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="reconStatus">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconSource">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="viewName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="reconDifferences">
+        <datatype type="STRING" maxLength="555"/>
+      </element>
+      <element name="issuerId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="idBBCompany">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="idBBParentCo">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="idBBUltimateParentCo">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="issuerName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="issuerLegalName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="address">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="countryIncorporation">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="countryDomicile">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="countryExposure">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="companyCorpTicker">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="idReplacementIdentifier">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="globalCompanyId">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="globalObligorId">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="globalParentId">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="globalUltimateParentId">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="gicsSubIndustryCode">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="industrySubgrpNo">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="acquiredByParent">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="companyIsPrivate">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="companyToParentRelationship">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="companyWebAddress">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="issuerNameTypes">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="lei">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="leiAssignedDt">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="leiLastUpdate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="leiLegalForm">
+        <datatype type="STRING" maxLength="256"/>
+      </element>
+      <element name="leiRegistrationAddress">
+        <datatype type="STRING" maxLength="256"/>
+      </element>
+      <element name="leiStatus">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="obligIndustrySubgroup">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="obligorBbid">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="state">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="stateOfDomicile">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    recon_vwIssuerMaster.reconStatus,
+    recon_vwIssuerMaster.reconSource,
+    recon_vwIssuerMaster.viewName,
+    recon_vwIssuerMaster.reconId,
+    recon_vwIssuerMaster.reconDifferences,
+    recon_vwIssuerMaster.issuerId,
+    recon_vwIssuerMaster.idBBCompany,
+    recon_vwIssuerMaster.idBBParentCo,
+    recon_vwIssuerMaster.idBBUltimateParentCo,
+    recon_vwIssuerMaster.issuerName,
+    recon_vwIssuerMaster.issuerLegalName,
+    recon_vwIssuerMaster.address,
+    recon_vwIssuerMaster.countryIncorporation,
+    recon_vwIssuerMaster.countryDomicile,
+    recon_vwIssuerMaster.countryExposure,
+    recon_vwIssuerMaster.companyCorpTicker,
+    recon_vwIssuerMaster.idReplacementIdentifier,
+    recon_vwIssuerMaster.globalCompanyId,
+    recon_vwIssuerMaster.globalObligorId,
+    recon_vwIssuerMaster.globalParentId,
+    recon_vwIssuerMaster.globalUltimateParentId,
+    recon_vwIssuerMaster.gicsSubIndustryCode,
+    recon_vwIssuerMaster.industrySubgrpNo,
+    recon_vwIssuerMaster.acquiredByParent,
+    recon_vwIssuerMaster.companyIsPrivate,
+    recon_vwIssuerMaster.companyToParentRelationship,
+    recon_vwIssuerMaster.companyWebAddress,
+    recon_vwIssuerMaster.issuerNameTypes,
+    recon_vwIssuerMaster.lei,
+    recon_vwIssuerMaster.leiAssignedDt,
+    recon_vwIssuerMaster.leiLastUpdate,
+    recon_vwIssuerMaster.leiLegalForm,
+    recon_vwIssuerMaster.leiRegistrationAddress,
+    recon_vwIssuerMaster.leiStatus,
+    recon_vwIssuerMaster.obligIndustrySubgroup,
+    recon_vwIssuerMaster.obligorBbid,
+    recon_vwIssuerMaster.state,
+    recon_vwIssuerMaster.stateOfDomicile
+from /shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwIssuerMaster</attribute>
+  <attribute name="creationDate" type="LONG">1610487099027</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1610491350050</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1610487099027</attribute>
+</metadata>

@@ -1,0 +1,1002 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="recon_vwSecurityMuni" path="/shared/Cases/datasource/Marcus_01920384/recon_vwSecurityMuni" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="reconStatus" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconSource" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="viewName" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="reconDifferences" nullable="true">
+      <datatype type="STRING" maxLength="1979"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="securityId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="babIndicator" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="babType" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="callProvisionStatusCodes" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="callType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="completelyCalled" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="distressedSecurity" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="federalTaxIndicator" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="financialAdvisor" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="firmFirstSettleDate" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="floaterNextAccrualDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="gicExpirationDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="guaranteedInvestmentContract" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="guarantyAgreement" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="guarantyAgreementExpDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="inverseFltAuctionFreq" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="inverseFltBondType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="legalOpinion" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="liquidityAgreement" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="liquidityAgreementExpDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mainObligorAltIdBB" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mainObligorType" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mandatoryPutUponConv" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mostRecentDefaultDetail" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="mostRecentDefaultType" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniAdjCouponMode" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniAdvRefundDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniAdvRefundPrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniAdvRefundType" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniCorpObligor2" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniCorpObligor3" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniDepository" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniEscrowMaturityDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniEscrowPct" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniEscrowPct2nd" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniEscrowType" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniEscrowType2nd" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniForm" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniIntPaymentType" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniIssuerDesc2ndLine" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniIssueSize" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniIssueType2" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit2ndExpDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit2nd" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit2ndPct" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit2ndType" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit3rd" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit3rdExpDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit3rdPct" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit3rdType" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit4th" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit4thExpDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit4thPct" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCredit4thType" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCreditExpDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCreditPct" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterCreditType" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLetterOfCreditFlag" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniLongIndustryType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniMinTax" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniMaturitySize" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniNote" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniObligor2Type" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniObligor3Type" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniOfferingType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniOriginalCusip" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniPayingAgent" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniPreRefundDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniPreRefundMaturityDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniPurchAgreement" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniPurchAgreementDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniPurpose" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniPurpose2" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniPurpose3" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniRefundStatus" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniRegistrar" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniRevisedIssuePrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniSecurityIsDerivative" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniSource" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniSource2" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniSource3" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniTaxProvision" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniTrustee" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="muniTrustId" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="nextSinkPrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="preRefundType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="putType" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="remarketingAgent" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="saleDate" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sinkingFundRedemptionMethod" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="stateCode" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="taxStatusCode" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="tenderAgent" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ultimateBorrowerBbid" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ultimateBorrowerName" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="variableAdjDay" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="variableInitCouponRate" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="variableRateFreqCode" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="variableRateTypeCode" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="wasPartiallyCalled" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="extraRedemptionFlag" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="extraRedemptionType" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwSecurityMuni" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="reconStatus">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconSource">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="viewName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="reconId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="reconDifferences">
+        <datatype type="STRING" maxLength="1979"/>
+      </element>
+      <element name="securityId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="babIndicator">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="babType">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="callProvisionStatusCodes">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="callType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="completelyCalled">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="distressedSecurity">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="federalTaxIndicator">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="financialAdvisor">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="firmFirstSettleDate">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="floaterNextAccrualDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="gicExpirationDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="guaranteedInvestmentContract">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="guarantyAgreement">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="guarantyAgreementExpDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="inverseFltAuctionFreq">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="10" maxFractionalDigits="10"/>
+      </element>
+      <element name="inverseFltBondType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="legalOpinion">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="liquidityAgreement">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="liquidityAgreementExpDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="mainObligorAltIdBB">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="10" maxFractionalDigits="10"/>
+      </element>
+      <element name="mainObligorType">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="mandatoryPutUponConv">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="mostRecentDefaultDetail">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="mostRecentDefaultType">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="muniAdjCouponMode">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="muniAdvRefundDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="muniAdvRefundPrice">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="muniAdvRefundType">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="muniCorpObligor2">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniCorpObligor3">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniDepository">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniEscrowMaturityDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="muniEscrowPct">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="muniEscrowPct2nd">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="muniEscrowType">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="muniEscrowType2nd">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="muniForm">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniIntPaymentType">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="muniIssuerDesc2ndLine">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="muniIssueSize">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="muniIssueType2">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="muniLetterCredit2ndExpDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="muniLetterCredit">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniLetterCredit2nd">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniLetterCredit2ndPct">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="muniLetterCredit2ndType">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="muniLetterCredit3rd">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="muniLetterCredit3rdExpDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="muniLetterCredit3rdPct">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="muniLetterCredit3rdType">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="muniLetterCredit4th">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="muniLetterCredit4thExpDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="muniLetterCredit4thPct">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="muniLetterCredit4thType">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="muniLetterCreditExpDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="muniLetterCreditPct">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="muniLetterCreditType">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="muniLetterOfCreditFlag">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniLongIndustryType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniMinTax">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="muniMaturitySize">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="muniNote">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="muniObligor2Type">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="muniObligor3Type">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="muniOfferingType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniOriginalCusip">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="muniPayingAgent">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniPreRefundDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="muniPreRefundMaturityDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="muniPurchAgreement">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniPurchAgreementDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="muniPurpose">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="muniPurpose2">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniPurpose3">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniRefundStatus">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="muniRegistrar">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniRevisedIssuePrice">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="muniSecurityIsDerivative">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniSource">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniSource2">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniSource3">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniTaxProvision">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniTrustee">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="muniTrustId">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="nextSinkPrice">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="preRefundType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="putType">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="remarketingAgent">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="saleDate">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="sinkingFundRedemptionMethod">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="stateCode">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="taxStatusCode">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="tenderAgent">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="ultimateBorrowerBbid">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="ultimateBorrowerName">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="variableAdjDay">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="variableInitCouponRate">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="variableRateFreqCode">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="variableRateTypeCode">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="wasPartiallyCalled">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="extraRedemptionFlag">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="extraRedemptionType">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    *
+from
+/shared/Cases/datasource/Marcus_01920384/Summit/Summit/recon/recon_vwSecurityMuni</attribute>
+  <attribute name="creationDate" type="LONG">1611253343932</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1611253866142</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1611253343932</attribute>
+</metadata>

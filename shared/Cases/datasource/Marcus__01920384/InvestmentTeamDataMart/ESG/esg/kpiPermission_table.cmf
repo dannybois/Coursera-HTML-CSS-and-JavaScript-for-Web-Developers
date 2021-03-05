@@ -1,0 +1,194 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="kpiPermission" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/esg/kpiPermission" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="kpiId" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="groupId" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertDate" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertSource" nullable="false">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="updateDate" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="updateSource" nullable="false">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="PK_kpiPermission" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="kpiId" sortOrder="ASCENDING"/>
+      <indexColumn name="groupId" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys>
+    <foreignKey name="FK_kpiPermission_kpiMaster" primaryKeyName="PK_kpiMaster_kpiId" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/esg/kpiMaster">
+      <foreignKeyColumn primaryColumnName="kpiId" foreignColumnName="kpiId"/>
+    </foreignKey>
+    <foreignKey name="FK_kpiPermission_group" primaryKeyName="PK_group" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/esg/group">
+      <foreignKeyColumn primaryColumnName="groupId" foreignColumnName="groupId"/>
+    </foreignKey>
+  </foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/esg/group" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="groupId" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="groupName" nullable="false">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="groupDesc">
+        <datatype type="STRING" maxLength="1000"/>
+      </element>
+      <element name="activeDirectoryGroup">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="isActive">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="insertDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="insertSource" nullable="false">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="updateDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="updateSource" nullable="false">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/ESG/esg/kpiMaster" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="kpiId" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="kpiName" nullable="false">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="kpiDesc">
+        <datatype type="STRING" maxLength="4000"/>
+      </element>
+      <element name="fileSourceId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="vendorKpiName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="vendorKpiId">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="vendorKpiCode">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="vendorSectorName">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="calvertDescription">
+        <datatype type="STRING" maxLength="4000"/>
+      </element>
+      <element name="isCustomKpi">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="isComparable">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="kpiValueListId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="polarity">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="rangeMax">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="rangeMin">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="definitionOfNull">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="levelOfMeasurement">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="adjustedByJurisdiction">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="adjustedByPeerGroup">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="toleranceMin">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="toleranceMax">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="isActive">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="insertDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="insertSource" nullable="false">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="updateDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="updateSource" nullable="false">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1591019839878</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">251582</attribute>
+  <attribute name="creatorUserName" type="STRING">drao</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1594444468748</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">251582</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">fwright</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1591019839878</attribute>
+</metadata>

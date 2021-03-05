@@ -1,0 +1,194 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="api_insert_dq_sum" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/dqf/api_insert_dq_sum" type="PROCEDURE" subtype="DATABASE_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="@RETURN_VALUE" direction="RETURN" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@dq_application_name" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@dq_application_id" direction="IN" nullable="true">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+    </parameter>
+    <parameter name="@dq_check_id" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@dq_process_name" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@dq_process_trigger_point" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(15)" subType="DATASOURCE_TYPE" type="STRING" maxLength="15"/>
+    </parameter>
+    <parameter name="@dq_check_name" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(30)" subType="DATASOURCE_TYPE" type="STRING" maxLength="30"/>
+    </parameter>
+    <parameter name="@dq_check_desc" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@dq_check_exception_handling" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@database_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@schema_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@table_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@column_name_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@group_by_column1_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@group_by_column2_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@group_by_column3_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@timeseries_column_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@where_clause1_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@where_clause2_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@where_clause3_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@pk_field1" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(30)" subType="DATASOURCE_TYPE" type="STRING" maxLength="30"/>
+    </parameter>
+    <parameter name="@pk_field2" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(30)" subType="DATASOURCE_TYPE" type="STRING" maxLength="30"/>
+    </parameter>
+    <parameter name="@pk_field3" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(30)" subType="DATASOURCE_TYPE" type="STRING" maxLength="30"/>
+    </parameter>
+    <parameter name="@log_all_rows" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+    </parameter>
+    <parameter name="@sum_value" direction="IN" nullable="true">
+      <datatype name="numeric" extendedName="numeric(25,8)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="25" minFractionalDigits="8" maxFractionalDigits="8"/>
+    </parameter>
+    <parameter name="@upper_bound_error" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@lower_bound_error" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@upper_bound_warning" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@lower_bound_warning" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+    </parameter>
+    <parameter name="@perform_view_generation" direction="IN" nullable="true">
+      <datatype name="char" extendedName="char(1)" subType="DATASOURCE_TYPE" type="STRING" minLength="1" maxLength="1"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_proc_type" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_st_date" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_end_date" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_schema_tgt" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_tbl_tgt" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_1st_grp" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_2nd_grp" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_nbr_recs_stg" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_nbr_recs_base" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_day2day_diff" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_pct_diff" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_lower_pct_tol" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_upper_pct_tol" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_colnm_check_outcome" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@user_vw_cust_col1_val" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+    </parameter>
+    <parameter name="@user_vw_cust_col1_name" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+    </parameter>
+    <parameter name="@user_vw_cust_col2_val" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+    </parameter>
+    <parameter name="@user_vw_cust_col2_name" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+    </parameter>
+    <parameter name="@user_vw_cust_col3_val" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+    </parameter>
+    <parameter name="@user_vw_cust_col3_name" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+    </parameter>
+    <parameter name="@data_type_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+    </parameter>
+    <parameter name="@data_type_target" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+    </parameter>
+    <parameter name="@operator_source" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(5)" subType="DATASOURCE_TYPE" type="STRING" maxLength="5"/>
+    </parameter>
+    <parameter name="@operator_target" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(5)" subType="DATASOURCE_TYPE" type="STRING" maxLength="5"/>
+    </parameter>
+    <parameter name="@create_user" direction="IN" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+    </parameter>
+    <parameter name="@debug" direction="IN" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+    </parameter>
+    <parameter name="@ret_check_id" direction="INOUT" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@ret_process_id" direction="INOUT" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1602073388579</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1602073388579</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="orgName" type="STRING">api_insert_dq_sum;1</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1602073388579</attribute>
+</metadata>

@@ -1,0 +1,231 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:386bd1d7-eec6-4884-b9d3-a8049cce38cb -->
+<metadata name="to_delete_securityXrefHistory" path="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/to_delete_securityXrefHistory" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="effectiveDate" nullable="false">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="securityId" nullable="false">
+      <datatype name="bigint" extendedName="bigint" subType="DATASOURCE_TYPE" type="INTEGER"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="xreference" nullable="false">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="xreferenceType" nullable="false">
+      <datatype name="varchar" extendedName="varchar(30)" subType="DATASOURCE_TYPE" type="STRING" maxLength="30"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="endDate" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertDate" nullable="false">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="insertSource" nullable="false">
+      <datatype name="varchar" extendedName="varchar(25)" subType="DATASOURCE_TYPE" type="STRING" maxLength="25"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="updateDate" nullable="true">
+      <datatype name="datetime" extendedName="datetime" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="updateSource" nullable="false">
+      <datatype name="varchar" extendedName="varchar(25)" subType="DATASOURCE_TYPE" type="STRING" maxLength="25"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="PK_securityXrefHistory" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="effectiveDate" sortOrder="ASCENDING"/>
+      <indexColumn name="securityId" sortOrder="ASCENDING"/>
+      <indexColumn name="xreferenceType" sortOrder="ASCENDING"/>
+      <indexColumn name="xreference" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys>
+    <foreignKey name="FK_sxhId" primaryKeyName="PK_SecurityMaster" primaryKeyTableName="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/securityMaster">
+      <foreignKeyColumn primaryColumnName="securityId" foreignColumnName="securityId"/>
+    </foreignKey>
+  </foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <dependency target="/shared/Cases/datasource/Marcus_01920384/InvestmentTeamDataMart/Invdm/ent/securityMaster" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="securityId" nullable="false">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="paceSecurityAlias">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="issueName" nullable="false">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="issueDescription">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="issuerId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="idBBCompany">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="currency" nullable="false">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="issueCountry" nullable="false">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="coupon">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="maturityDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="ticker">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="investmentType">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="classCodeEV" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="securityType">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="securityType2">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="tradingUnit">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="exchange">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="marketSector">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="industrySubgrpNumber">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="gicsSubIndustryCode">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="marketStatus">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="144aFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="couponFreq">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="descriptionNotes">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="dtcEligibleFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="hybridFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="mifid2Flag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="privatePlacement">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="144aRegistrationRights">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="registeredFlag">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="whenIssued">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="liquidFlag">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="insertDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="insertSource" nullable="false">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="updateDate" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="updateSource" nullable="false">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="primarySecurityFlag">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="inactiveDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="parAmount">
+        <datatype type="DECIMAL" maxDigits="38" minFractionalDigits="12" maxFractionalDigits="12"/>
+      </element>
+      <element name="esgType">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="billingExcludeFlag">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1600884227485</attribute>
+  <attribute name="creatorUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">296706</attribute>
+  <attribute name="creatorUserName" type="STRING">mjurado</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1600884227485</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">eatonvance.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">296706</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mjurado</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1600884227485</attribute>
+</metadata>
